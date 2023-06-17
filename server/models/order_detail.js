@@ -50,13 +50,6 @@ export default class order_detail extends Model {
           { name: "order_detail_id" },
         ]
       },
-      {
-        name: "pk_department_id",
-        unique: true,
-        fields: [
-          { name: "department_id" },
-        ]
-      },
     ]
   });
   }

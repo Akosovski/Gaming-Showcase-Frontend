@@ -1,32 +1,20 @@
 import _sequelize from 'sequelize';
 const { Model, Sequelize } = _sequelize;
 
-export default class order_detail extends Model {
+export default class users extends Model {
   static init(sequelize, DataTypes) {
   return super.init({
-    order_detail_id: {
+    user_id: {
       type: DataTypes.INTEGER,
       allowNull: false,
       primaryKey: true
     },
-    order_id: {
-      type: DataTypes.INTEGER,
-      allowNull: true,
-      references: {
-        model: 'orders',
-        key: 'order_id'
-      }
+    username: {
+      type: DataTypes.STRING(100),
+      allowNull: true
     },
-    product_id: {
-      type: DataTypes.INTEGER,
-      allowNull: true,
-      references: {
-        model: 'product',
-        key: 'product_id'
-      }
-    },
-    quantity: {
-      type: DataTypes.INTEGER,
+    password: {
+      type: DataTypes.TEXT,
       allowNull: true
     },
     createdat: {
@@ -39,15 +27,15 @@ export default class order_detail extends Model {
     }
   }, {
     sequelize,
-    tableName: 'order_detail',
+    tableName: 'users',
     schema: 'public',
     timestamps: false,
     indexes: [
       {
-        name: "pk_order_detail_id",
+        name: "pk_user_id",
         unique: true,
         fields: [
-          { name: "order_detail_id" },
+          { name: "user_id" },
         ]
       },
     ]

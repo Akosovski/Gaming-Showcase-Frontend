@@ -46,13 +46,6 @@ export default class customer extends Model {
           { name: "customer_id" },
         ]
       },
-      {
-        name: "pk_location_id",
-        unique: true,
-        fields: [
-          { name: "location_id" },
-        ]
-      },
     ]
   });
   }

@@ -24,7 +24,7 @@ const sequelize = new Sequelize(
   }
 );
 
-const initModels = (sequelize) =>  {
+const initModels = (sequelize) => {
   const customer = _customer.init(sequelize, DataTypes);
   const order_detail = _order_detail.init(sequelize, DataTypes);
   const orders = _orders.init(sequelize, DataTypes);
@@ -54,6 +54,5 @@ const initModels = (sequelize) =>  {
 }
 
 const models = initModels(sequelize);
-
 export default models;
 export { sequelize };

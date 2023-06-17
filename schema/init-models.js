@@ -35,8 +35,3 @@ export default function initModels(sequelize) {
     users,
   };
 }
-
-const models = initModels(sequelize);
-
-export default models;
-export {sequelize};
