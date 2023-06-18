@@ -7,7 +7,7 @@ import helmet from 'helmet'
 import models,{sequelize} from './models/init-models'
 import routes from './routes/indexRoute'
 
-const port = process.env.PORT || 3300
+const port = process.env.PORT || 3000
 const app = express()
 
 app.use(express.json())
@@ -25,6 +25,8 @@ app.use('/auth',routes.userRoute)
 app.use('/product-category',routes.categoryRoute)
 app.use('/product',routes.productRoute)
 app.use('/customer',routes.customerRoute)
+app.use('/order',routes.ordersRoute)
+//app.use('/order-detail',routes.orderdetailRoute)
 
 const dropDatabaseSync = false
 

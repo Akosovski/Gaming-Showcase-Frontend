@@ -5,8 +5,6 @@ import middleware from '../middleware/upload'
 
 const route = Router()
 
-route.get('/',indexCtrl.customerCtrl.findAll)
-route.get('/:ids', indexCtrl.customerCtrl.findOne, indexCtrl.userCtrl.findByUsername)
-route.get('/query/:id',indexCtrl.customerCtrl.querySQL)
+route.post('/create',indexCtrl.ordersCtrl.create)
 
 export default route
