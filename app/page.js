@@ -1,13 +1,9 @@
-// MAIN
 'use client';
 import Head from "next/head";
 import * as React from 'react';
 import { useState, useEffect } from "react";
 import Image from "next/image";
-
-// COMPONENTS
-
-// SVG FILES
+import '../styles/globals.css';
 
 export default function Page() {
     const [darkMode, setDarkMode] = useState(false);
@@ -20,7 +16,7 @@ export default function Page() {
 
         <div className="grid grid-cols-2 gap-4 place-content-center">
           <div className="bg-blue-500 p-4">
-            <h1 className="text-lg text-green">Akosovski</h1>
+            <h1 className="">Akosovski</h1>
           </div>
           
         </div>
