@@ -26,7 +26,7 @@ export default function Page() {
           <link rel="icon" href="#" />
         </Head>
 
-        {/* STEAM SECTION */}
+        {/* STEAM */}
         <div className="bg-[url('../public/images/steambg.gif')]">
 
           <section className="w-9/12 max-[1145px]:w-full mx-auto bg-[#091024] bg-opacity-80 max-[768px]:bg-opacity-60 steam-part max-[470px]:min-width-[350px] overflow-hidden">
@@ -190,7 +190,91 @@ export default function Page() {
                 </div>
               </div>
             </div>
+
+            {/* GAMES STATS */}
+            <div className="flex flex-row gap-5 flex-wrap justify-center pb-5 mt-3 max-[470px]:px-2">
+
+              {/* HONKAI IMPACT 3RD STATS */}
+              <div className="justify-center bg-[#1b1d2a] w-72 p-3 rounded-[12px]">
+                <h1 className="text-slate-400 mb-1 text-lg ml-1">Honkai Impact 3rd</h1>
+                <hr></hr>
+                <h1 className="text-slate-100 font-bold mt-2 ml-1">Akosovski</h1>
+                <h1 className="text-slate-400 mb-2 ml-1">SEA Server Lv.78</h1>
+                <div className="grid grid-rows-4 gap-2">
+                  <div className="flex flex-cols justify-between bg-[#343746] p-3 rounded-[10px] text-slate-100">
+                    <h1>Days on Hyperion</h1>
+                    <h1 className="font-bold">212</h1>
+                  </div>
+                  <div className="flex flex-cols justify-between bg-[#343746] p-3 rounded-[10px] text-slate-100">
+                    <h1>Stigmata Owned</h1>
+                    <h1 className="font-bold">154</h1>
+                  </div>
+                  <div className="flex flex-cols justify-between bg-[#343746] p-3 rounded-[10px] text-slate-100">
+                    <h1>Battlesuits Owned</h1>
+                    <h1 className="font-bold">43</h1>
+                  </div>
+                  <div className="flex flex-cols justify-between bg-[#343746] p-3 rounded-[10px] text-slate-100">
+                    <h1>Outfits</h1>
+                    <h1 className="font-bold">48</h1>
+                  </div>
+                </div>
+              </div>
+
+              {/* GENSHIN IMPACT STATS */}
+              <div className="justify-center bg-[#1b1d2a] w-72 p-3 rounded-[12px]">
+                <h1 className="text-slate-400 mb-1 text-lg ml-1">Genshin Impact</h1>
+                <hr></hr>
+                <h1 className="text-slate-100 font-bold mt-2 ml-1">Akosovski</h1>
+                <h1 className="text-slate-400 mb-2 ml-1">Asia Server Lv.60</h1>
+                <div className="grid grid-rows-4 gap-2">
+                  <div className="flex flex-cols justify-between bg-[#343746] p-3 rounded-[10px] text-slate-100">
+                    <h1>Days Active</h1>
+                    <h1 className="font-bold">877</h1>
+                  </div>
+                  <div className="flex flex-cols justify-between bg-[#343746] p-3 rounded-[10px] text-slate-100">
+                    <h1>Characters</h1>
+                    <h1 className="font-bold">43</h1>
+                  </div>
+                  <div className="flex flex-cols justify-between bg-[#343746] p-3 rounded-[10px] text-slate-100">
+                    <h1>Achievements</h1>
+                    <h1 className="font-bold">568</h1>
+                  </div>
+                  <div className="flex flex-cols justify-between bg-[#343746] p-3 rounded-[10px] text-slate-100">
+                    <h1>Spiral Abyss</h1>
+                    <h1 className="font-bold">10-3</h1>
+                  </div>
+                </div>
+              </div>
+
+              {/* HONKAI: STAR RAIL STATS */}
+              <div className="justify-center bg-[#1b1d2a] w-72 p-3 rounded-[12px]">
+                <h1 className="text-slate-400 mb-1 text-lg ml-1">Honkai: Star Rail</h1>
+                <hr></hr>
+                <h1 className="text-slate-100 font-bold mt-2 ml-1">Akosovski</h1>
+                <h1 className="text-slate-400 mb-2 ml-1">Asia Server Lv.70</h1>
+                <div className="grid grid-rows-4 gap-2">
+                  <div className="flex flex-cols justify-between bg-[#343746] p-3 rounded-[10px] text-slate-100">
+                    <h1>Time Active</h1>
+                    <h1 className="font-bold">222</h1>
+                  </div>
+                  <div className="flex flex-cols justify-between bg-[#343746] p-3 rounded-[10px] text-slate-100">
+                    <h1>Characters Unlocked</h1>
+                    <h1 className="font-bold">26</h1>
+                  </div>
+                  <div className="flex flex-cols justify-between bg-[#343746] p-3 rounded-[10px] text-slate-100">
+                    <h1>Achievements Unlocked</h1>
+                    <h1 className="font-bold">298</h1>
+                  </div>
+                  <div className="flex flex-cols justify-between bg-[#343746] p-3 rounded-[10px] text-slate-100">
+                    <h1>Treasured Opened</h1>
+                    <h1 className="font-bold">309</h1>
+                  </div>
+                </div>
+              </div>
+
+            </div>
         </div>
+
       </div>
     )
   }
