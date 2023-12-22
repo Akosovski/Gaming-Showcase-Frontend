@@ -2,3 +2,13 @@
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
+
+@font-face {
+    font-family: Motiva;
+    src: url(../public/fonts/MotivaSansLight.woff.ttf);
+}
+
+.steam-part{
+    font-family: Motiva;
+    text-shadow: 2px 2px 4px #000000;
+}
