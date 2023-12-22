@@ -5,7 +5,8 @@ import { useState, useEffect } from "react";
 import Image from "next/image";
 import '../styles/globals.css';
 
-import steamprofile from "../public/images/default.jpg";
+{/* STEAM IMAGES */}
+import steamprofile from "../public/images/defaultprofile.jpg";
 import steamlogo from "../public/images/steamlogo.png";
 import powerplayer from "../public/images/powerplayer.png";
 import readyornot from "../public/images/readyornot.jpg";
@@ -13,6 +14,7 @@ import eldenring from "../public/images/eldenring.jpg";
 import bannerlord from "../public/images/bannerlord.jpg";
 import xplane12 from "../public/images/xplane12.jpg";
 
+{/* HOYOVERSE IMAGES */}
 import hoyoprofile from "../public/images/hoyoprofile.png";
 import hoyolablogo from "../public/images/hoyolablogo.png";
 
