@@ -18,10 +18,12 @@ export default function Page() {
     return (
       <div className={darkMode ? "dark" : ""}>
         <Head>
-          <title></title>
           <link rel="icon" href="#" />
         </Head>
+
+        {/* STEAM SECTION */}
         <div className="bg-[url('../public/images/steambg.gif')]">
+
           <section className="w-9/12 max-[1145px]:w-full mx-auto bg-[#091024] bg-opacity-80 max-[768px]:bg-opacity-60 steam-part">
             <navbar className="w-full h-32">
               <div className="drop-shadow-lg w-48 h-16 overflow-hidden pt-5 pl-8">
@@ -132,23 +134,23 @@ export default function Page() {
                 </div>
               </div>
 
+              {/* ACHIEVEMENTS */}
               <div className="w-full mx-5 max-[600px]:mx-3 mb-5 rounded-[5px] bg-gradient-to-r from-[#142245] to-[#0a193e]">
                 <h1 className="ml-2.5 mt-1.5 mb-2 text-white">Achievement Showcase</h1>
                 <div className="border-t-2 border-slate-900 bg-gradient-to-r from-[#071a42] to-[#090d24] p-3 rounded-b-[5px]">
                   <div className="flex flex-cols max-[461px]:grid max-[461px]:grid-cols-3 rounded-[5px] bg-[#050816] bg-opacity-60 p-2.5 text-white">
                     <div className="mr-10 max-[768px]:mr-5 max-[461px]:mr-3">
                       <h1 className="text-3xl truncate">1,544</h1>
-                      <a href="https://steamcommunity.com/id/royal_avene/games/" target="_blank" rel="noreferrer">
-                        <h1 className="truncate text-gray-400 text-lg max-[768px]:text-[18px] max-[600px]:text-[16px] max-[530px]:text-[13px] hover:text-white">Achievements</h1></a>
+                      <h1 className="truncate text-gray-400 text-lg max-[768px]:text-[18px] max-[600px]:text-[16px] max-[530px]:text-[13px]">Achievements</h1>
                     </div>
                     <div className="mr-8 max-[768px]:mr-0">
                       <h1 className="text-3xl">1</h1>
-                      <a href="https://steamcommunity.com/id/royal_avene/games/" target="_blank" rel="noreferrer">
+                      <a href="https://steamcommunity.com/id/royal_avene/games/?tab=perfect" target="_blank" rel="noreferrer">
                         <h1 className="truncate text-gray-400 text-lg max-[768px]:text-[18px] max-[600px]:text-[16px] max-[530px]:text-[13px] hover:text-white">Perfect Games</h1></a>
                     </div>
                     <div className="ml-5 max-[461px]:ml-0">
                       <h1 className="text-3xl">34%</h1>
-                      <a href="https://steamcommunity.com/id/royal_avene/recommended/" target="_blank" rel="noreferrer">
+                      <a href="https://steamcommunity.com/id/royal_avene/games/?tab=all&sort=achievements" target="_blank" rel="noreferrer">
                         <h1 className="truncate text-gray-400 text-lg max-[768px]:text-[18px] max-[600px]:text-[16px] max-[530px]:text-[13px] hover:text-white">Avg. Game Completion Rate</h1></a>
                     </div>
                   </div>
@@ -157,7 +159,14 @@ export default function Page() {
               </div>
 
             </main>
+            <h1 className="text-center text-gray-500">Steam&reg; - 22/12/2023</h1>
+            <br></br>
           </section>
+          
+        </div>
+
+        <div>
+
         </div>
       </div>
     )
