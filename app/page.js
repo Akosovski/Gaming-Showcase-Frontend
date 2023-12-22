@@ -29,28 +29,28 @@ export default function Page() {
         {/* STEAM SECTION */}
         <div className="bg-[url('../public/images/steambg.gif')]">
 
-          <section className="w-9/12 max-[1145px]:w-full mx-auto bg-[#091024] bg-opacity-80 max-[768px]:bg-opacity-60 steam-part">
+          <section className="w-9/12 max-[1145px]:w-full mx-auto bg-[#091024] bg-opacity-80 max-[768px]:bg-opacity-60 steam-part max-[470px]:min-width-[350px] overflow-hidden">
             <navbar className="w-full h-32">
               <div className="drop-shadow-lg w-48 h-16 overflow-hidden pt-5 pl-8">
                 <a href="https://steamcommunity.com/id/royal_avene/" target="_blank" rel="noreferrer"><Image src={steamlogo}></Image></a>
               </div>
             </navbar>
             {/* PROFILE BAR */}
-            <header className="px-4 flex flex-row justify-between max-[768px]:justify-start gap-5 max-[768px]:gap-7 max-[470px]:gap-1 text-white pb-4 pt-4 max-[768px]:h-[400px] max-[470px]:h-[360px]">
+            <header className="px-4 flex flex-row justify-between max-[768px]:justify-start gap-5 max-[768px]:gap-7 max-[470px]:gap-1 text-white pb-4 pt-4 max-[768px]:h-[400px] max-[470px]:h-[320px]">
               <div className="flex flex-col md:flex-row gap-1 ml-5 max-[768px]:ml-2">
-                <div className="max-[768px]:order-last max-[768px]:ml-2 max-[768px]:-mt-[50px] w-48 drop-shadow-lg border-2 w-48 h-48 max-[470px]:w-36 max-[470px]:h-36 overflow-hidden mt-5 mb-5">
+                <div className="max-[768px]:order-last max-[768px]:ml-2 max-[768px]:-mt-[50px] w-48 drop-shadow-lg border-2 w-48 h-48 max-[470px]:w-28 max-[470px]:h-28 overflow-hidden mt-5 mb-5">
                   <Image src={steamprofile} layout="fill" objectFit="cover"></Image>
                 </div>
-                <img className="absolute -ml-6 -mt-1 w-[239px] h-[240px] max-[768px]:z-50 max-[768px]:-ml-4 max-[768px]:mt-[72px] max-[470px]:w-[180px] max-[470px]:h-[180px] max-[470px]:-ml-2.5 max-[470px]:mt-[78px]" 
+                <img className="absolute -ml-6 -mt-1 w-[239px] h-[240px] max-[768px]:z-50 max-[768px]:-ml-4 max-[768px]:mt-[72px] max-[470px]:w-[140px] max-[470px]:h-[140px] max-[470px]:-ml-[8px] max-[470px]:mt-[84px]" 
                 src="https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/items/1098340/71f42ec23a7f80c365f0c3900a6e61bdc78733d7.png"/>
 
                 <div className="grid grid-rows-2">
-                  <div className="p-4 pb-0 h-full ml-2 max-[768px]:w-max max-[768px]:-ml-2">
+                  <div className="p-4 pb-0 h-full ml-2 max-[768px]:w-max max-[768px]:-ml-2 max-[470px]:-ml-4">
                     <h1 className="text-2xl mt-4 max-[768px]:mt-0">Royal Avène</h1>
                     <h1 className="truncate">Akosovski &nbsp; &#127470;&#127465; Jakarta Raya, Indonesia</h1>
                   </div>
 
-                  <div className="p-4 pb-0 h-full ml-2 max-[768px]:w-max max-[768px]:-ml-2 max-[768px]:absolute max-[768px]:mt-[310px] max-[470px]:mt-[265px]">
+                  <div className="p-4 pb-0 h-full ml-2 max-[768px]:w-max max-[768px]:-ml-2 max-[768px]:absolute max-[768px]:mt-[310px] max-[470px]:mt-[230px] max-[470px]:-ml-4">
                     <div className="border border-1 border-black bg-black h-[22px] w-fit">
                     <h1 className="-mt-[4px] hover:text-white ml-1 w-fit cursor-text text-black">Jago Boleh, Goblok Jangan.</h1>
                     </div>
@@ -59,7 +59,7 @@ export default function Page() {
                 </div>
               </div>
               
-              <div className="p-4 w-72 pt-8 max-[768px]:w-full max-[768px]:pt-32 max-[768px]:-ml-20 max-[470px]:-ml-32 max-[470px]:pt-28">
+              <div className="p-4 w-72 pt-8 max-[768px]:w-full max-[768px]:pt-32 max-[768px]:-ml-20 max-[470px]:-ml-[185px] max-[470px]:pt-24">
                 <div className="grid grid-rows-2">
 
                   <div className="flex gap-2">
@@ -144,7 +144,7 @@ export default function Page() {
                 <h1 className="ml-2.5 mt-1.5 mb-2 text-white">Achievement Showcase</h1>
                 <div className="border-t-2 border-slate-900 bg-gradient-to-r from-[#071a42] to-[#090d24] p-3 rounded-b-[5px]">
                   <div className="flex flex-cols max-[461px]:grid max-[461px]:grid-cols-3 rounded-[5px] bg-[#050816] bg-opacity-60 p-2.5 text-white">
-                    <div className="mr-10 max-[768px]:mr-5 max-[461px]:mr-3">
+                    <div className="mr-10 max-[768px]:mr-5 max-[470px]:mr-2">
                       <h1 className="text-3xl truncate">1,544</h1>
                       <h1 className="truncate text-gray-400 text-lg max-[768px]:text-[18px] max-[600px]:text-[16px] max-[530px]:text-[13px]">Achievements</h1>
                     </div>
@@ -172,16 +172,16 @@ export default function Page() {
         {/* HOYOVERSE */}
         <div className="bg-[#0c0f1d] h-full">
             <div className="flex flex-row justify-center">
-              <div className="w-48 drop-shadow-lg w-48 h-48 max-[470px]:w-36 max-[470px]:h-36 overflow-hidden m-7 max-[470px]:ml-0">
+              <div className="w-48 drop-shadow-lg w-48 h-48 max-[470px]:w-28 max-[470px]:h-28 overflow-hidden m-7 max-[470px]:ml-2">
                 <Image src={hoyoprofile} layout="fill" objectFit="cover"></Image>
               </div>
-              <div className="grid grid-cols content-center w-56">
-                <div className="drop-shadow-lg w-56 h-10 overflow-hidden mb-2">
+              <div className="grid grid-cols content-center w-48 max-[470px]:-ml-2">
+                <div className="drop-shadow-lg w-44 h-8 overflow-hidden mb-3">
                   <Image src={hoyolablogo} layout="fill" objectFit="cover"></Image>
                 </div>
                 <div className="flex flex-row gap-3">
-                  <h1 className="text-2xl text-white">Akosovski</h1>
-                  <div className="border-1 bg-green-500 px-1 rounded-lg mt-1.5 mb-0.5">
+                  <h1 className="text-2xl max-[470px]:text-xl text-white">Akosovski</h1>
+                  <div className="border-1 bg-green-500 px-1 rounded-lg mt-1.5 mb-0.5 max-[470px]:mt-1">
                     <h1 className="text-md text-white">Lv.1</h1>
                   </div>
                 </div>
