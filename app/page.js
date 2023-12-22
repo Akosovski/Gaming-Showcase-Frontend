@@ -172,7 +172,7 @@ export default function Page() {
         {/* HOYOVERSE */}
         <div className="bg-[#0c0f1d] h-full">
             <div className="flex flex-row justify-center">
-              <div className="w-48 drop-shadow-lg w-48 h-48 max-[470px]:w-28 max-[470px]:h-28 overflow-hidden m-7 max-[470px]:ml-2">
+              <div className="w-48 drop-shadow-lg w-48 h-48 max-[470px]:w-28 max-[470px]:h-28 overflow-hidden m-7 max-[470px]:ml-4 max-[470px]:mr-5">
                 <Image src={hoyoprofile} layout="fill" objectFit="cover"></Image>
               </div>
               <div className="grid grid-cols content-center w-48 max-[470px]:-ml-2">
