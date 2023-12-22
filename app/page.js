@@ -17,10 +17,10 @@ export default function Page() {
           <link rel="icon" href="#" />
         </Head> 
 
-        <section className="w-9/12 max-[1145px]:w-full mx-auto">
+        <section className="w-9/12 max-[1145px]:w-full mx-auto bg-gradient-to-r from-slate-800 to-indigo-950">
 
-          <header className="bg-gradient-to-r from-slate-900 to-indigo-950
-          px-4 flex flex-row justify-between max-[768px]:justify-start gap-5 max-[768px]:gap-7 max-[470px]:gap-1 text-white pb-4 pt-4 max-[768px]:h-[400px] max-[470px]:h-[360px]">
+          {/* PROFILE BAR */}
+          <header className="px-4 flex flex-row justify-between max-[768px]:justify-start gap-5 max-[768px]:gap-7 max-[470px]:gap-1 text-white pb-4 pt-4 max-[768px]:h-[400px] max-[470px]:h-[360px]">
             <div className="flex flex-col md:flex-row gap-1 ml-5 max-[768px]:ml-2">
               <div className="max-[768px]:order-last max-[768px]:ml-2 max-[768px]:-mt-[50px] bg-red-500 w-48 drop-shadow-lg border-2 w-48 h-48 max-[470px]:w-36 max-[470px]:h-36 overflow-hidden mt-5 mb-5">
                 <Image src={steamprofile} layout="fill" objectFit="cover"></Image>
@@ -70,10 +70,34 @@ export default function Page() {
             </div>
           </header>
             
-        </section>
+          {/* MAIN STATS */}
+          <main className="flex flex-col-2 justify-center">
 
-        <section className="w-8/12 max-[1120px]:w-11/12 max-[768px]:w-full bg-green-500 mx-auto px-4 flex flex-row justify-between max-[768px]:justify-start gap-4">
+            <div className="w-full mx-5 mb-5 rounded-[5px] bg-gradient-to-r from-gray-900 to-slate-800">
+              <h1 className="ml-2.5 mt-1 mb-2 text-white">Game Collector</h1>
+              <div className="border-t-2 border-slate-900 bg-gradient-to-r from-gray-800 to-slate-950 p-3">
+                <div className="grid grid-cols-4 rounded-[5px] bg-gradient-to-r from-gray-900 to-slate-950 border border-1 border-slate-900 p-2 text-white">
+                  <div>
+                    <h1 className="text-2xl">110</h1>
+                    <h1 className="truncate text-gray-400 text-lg max-[768px]:text-[18px] max-[600px]:text-[15px] max-[470px]:text-[13px]">Games Owned</h1>
+                  </div>
+                  <div className="ml-3">
+                    <h1 className="text-2xl">215</h1>
+                    <h1 className="truncate text-gray-400 text-lg max-[768px]:text-[18px] max-[600px]:text-[15px] max-[470px]:text-[13px]">DLC Owned</h1>
+                  </div>
+                  <div className="ml-4">
+                    <h1 className="text-2xl">44</h1>
+                    <h1 className="truncate text-gray-400 text-lg max-[768px]:text-[18px] max-[600px]:text-[15px] max-[470px]:text-[13px]">Reviews</h1>
+                  </div>
+                  <div className="ml-2">
+                    <h1 className="text-2xl">9</h1>
+                    <h1 className="truncate text-gray-400 text-lg max-[768px]:text-[18px] max-[600px]:text-[15px] max-[470px]:text-[13px]">Wishlisted</h1>
+                  </div>
+                </div>
+              </div>
+            </div>
 
+          </main>
         </section>
         
       </div>
