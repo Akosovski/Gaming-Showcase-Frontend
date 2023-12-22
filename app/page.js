@@ -17,6 +17,7 @@ import xplane12 from "../public/images/xplane12.jpg";
 {/* HOYOVERSE IMAGES */}
 import hoyoprofile from "../public/images/hoyoprofile.png";
 import hoyolablogo from "../public/images/hoyolablogo.png";
+import hi3logo from "../public/images/honkai-impact-3rd.svg";
 
 export default function Page() {
     const [darkMode, setDarkMode] = useState(false);
@@ -180,7 +181,7 @@ export default function Page() {
                   <Image src={hoyolablogo} layout="fill" objectFit="cover"></Image>
                 </div>
                 <div className="flex flex-row gap-3">
-                  <h1 className="text-2xl max-[470px]:text-xl text-white">Akosovski</h1>
+                  <h1 className="text-2xl max-[470px]:text-xl text-white mt-0.5">Akosovski</h1>
                   <div className="border-1 bg-green-500 px-1 rounded-lg mt-1.5 mb-0.5 max-[470px]:mt-1">
                     <h1 className="text-md text-white">Lv.1</h1>
                   </div>
@@ -192,7 +193,7 @@ export default function Page() {
             </div>
 
             {/* GAMES STATS */}
-            <div className="flex flex-row gap-5 flex-wrap justify-center pb-5 mt-3 max-[470px]:px-2">
+            <div className="flex flex-row gap-5 flex-wrap justify-center pb-8 mt-3 max-[470px]:px-2">
 
               {/* HONKAI IMPACT 3RD STATS */}
               <div className="justify-center bg-[#1b1d2a] w-72 p-3 rounded-[12px]">
@@ -272,6 +273,18 @@ export default function Page() {
                 </div>
               </div>
 
+            </div>
+
+            <hr className="mx-48 max-[470px]:mx-16"></hr>
+
+            {/* HONKAI IMPACT 3RD */}
+            <div className="grid grid-rows-2 justify-center mt-5">
+              <div className="drop-shadow-lg w-72 h-36 overflow-hidden mb-3">
+                <Image src={hi3logo} ></Image>
+              </div>
+              <div>
+                <h1 className="text-white text-xl text-center mt-2 font-bold">My Featured Valkyries</h1>
+              </div>
             </div>
         </div>
 
