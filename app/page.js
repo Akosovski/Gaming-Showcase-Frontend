@@ -13,6 +13,9 @@ import eldenring from "../public/images/eldenring.jpg";
 import bannerlord from "../public/images/bannerlord.jpg";
 import xplane12 from "../public/images/xplane12.jpg";
 
+import hoyoprofile from "../public/images/hoyoprofile.png";
+import hoyolablogo from "../public/images/hoyolablogo.png";
+
 export default function Page() {
     const [darkMode, setDarkMode] = useState(false);
     return (
@@ -33,7 +36,7 @@ export default function Page() {
             {/* PROFILE BAR */}
             <header className="px-4 flex flex-row justify-between max-[768px]:justify-start gap-5 max-[768px]:gap-7 max-[470px]:gap-1 text-white pb-4 pt-4 max-[768px]:h-[400px] max-[470px]:h-[360px]">
               <div className="flex flex-col md:flex-row gap-1 ml-5 max-[768px]:ml-2">
-                <div className="opacity-150 max-[768px]:order-last max-[768px]:ml-2 max-[768px]:-mt-[50px] w-48 drop-shadow-lg border-2 w-48 h-48 max-[470px]:w-36 max-[470px]:h-36 overflow-hidden mt-5 mb-5">
+                <div className="max-[768px]:order-last max-[768px]:ml-2 max-[768px]:-mt-[50px] w-48 drop-shadow-lg border-2 w-48 h-48 max-[470px]:w-36 max-[470px]:h-36 overflow-hidden mt-5 mb-5">
                   <Image src={steamprofile} layout="fill" objectFit="cover"></Image>
                 </div>
                 <img className="absolute -ml-6 -mt-1 w-[239px] h-[240px] max-[768px]:z-50 max-[768px]:-ml-4 max-[768px]:mt-[72px] max-[470px]:w-[180px] max-[470px]:h-[180px] max-[470px]:-ml-2.5 max-[470px]:mt-[78px]" 
@@ -159,14 +162,32 @@ export default function Page() {
               </div>
 
             </main>
-            <h1 className="text-center text-gray-500">Steam&reg; - 22/12/2023</h1>
+            <h1 className="text-center text-gray-500">Steam&reg; - 22 December 2023</h1>
             <br></br>
           </section>
-          
         </div>
 
-        <div>
-
+        {/* HOYOVERSE */}
+        <div className="bg-[#0c0f1d] h-full">
+            <div className="flex flex-row justify-center">
+              <div className="w-48 drop-shadow-lg w-48 h-48 max-[470px]:w-36 max-[470px]:h-36 overflow-hidden m-7 max-[470px]:ml-0">
+                <Image src={hoyoprofile} layout="fill" objectFit="cover"></Image>
+              </div>
+              <div className="grid grid-cols content-center w-56">
+                <div className="drop-shadow-lg w-56 h-10 overflow-hidden mb-2">
+                  <Image src={hoyolablogo} layout="fill" objectFit="cover"></Image>
+                </div>
+                <div className="flex flex-row gap-3">
+                  <h1 className="text-2xl text-white">Akosovski</h1>
+                  <div className="border-1 bg-green-500 px-1 rounded-lg mt-1.5 mb-0.5">
+                    <h1 className="text-md text-white">Lv.1</h1>
+                  </div>
+                </div>
+                <div className="mt-2">
+                  <h1 className="text-md text-gray-400">Ajeb-ajeb in advance.</h1>
+                </div>
+              </div>
+            </div>
         </div>
       </div>
     )
