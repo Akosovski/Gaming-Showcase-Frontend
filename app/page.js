@@ -17,7 +17,17 @@ import xplane12 from "../public/images/xplane12.jpg";
 {/* HOYOVERSE IMAGES */}
 import hoyoprofile from "../public/images/hoyoprofile.png";
 import hoyolablogo from "../public/images/hoyolablogo.png";
+
 import hi3logo from "../public/images/honkai-impact-3rd.svg";
+import genshinlogo from "../public/images/genshin-impact.svg";
+import goldendiva from "../public/images/goldendiva.svg";
+import herrscherreason from "../public/images/herrscherreason.svg";
+import herrschervoid from "../public/images/herrschervoid.svg";
+import herrscherthunder from "../public/images/herrscherthunder.svg";
+import misspinkelf from "../public/images/misspinkelf.svg";
+import shadowdash from "../public/images/shadowdash.svg";
+import starchasmnyx from "../public/images/starchasmnyx.svg";
+import swallowtailphantasm from "../public/images/swallowtailphantasm.svg";
 
 export default function Page() {
     const [darkMode, setDarkMode] = useState(false);
@@ -27,7 +37,7 @@ export default function Page() {
           <link rel="icon" href="#" />
         </Head>
 
-        {/* STEAM */}
+        {/* STEAM START */}
         <div className="bg-[url('../public/images/steambg.gif')]">
 
           <section className="w-9/12 max-[1145px]:w-full mx-auto bg-[#091024] bg-opacity-80 max-[768px]:bg-opacity-60 steam-part max-[470px]:min-width-[350px] overflow-hidden">
@@ -169,8 +179,11 @@ export default function Page() {
             <br></br>
           </section>
         </div>
+        {/* STEAM END */}
 
-        {/* HOYOVERSE */}
+        {/* ---------------------------------------------------------------------------------------------------- */}
+
+        {/* HOYOVERSE START */}
         <div className="bg-[#0c0f1d] h-full">
             <div className="flex flex-row justify-center">
               <div className="w-48 drop-shadow-lg w-48 h-48 max-[470px]:w-28 max-[470px]:h-28 overflow-hidden m-7 max-[470px]:ml-4 max-[470px]:mr-5">
@@ -193,7 +206,7 @@ export default function Page() {
             </div>
 
             {/* GAMES STATS */}
-            <div className="flex flex-row gap-5 flex-wrap justify-center pb-8 mt-3 max-[470px]:px-2">
+            <div className="flex flex-row gap-5 flex-wrap justify-center pb-16 mt-3 max-[470px]:px-2">
 
               {/* HONKAI IMPACT 3RD STATS */}
               <div className="justify-center bg-[#1b1d2a] w-72 p-3 rounded-[12px]">
@@ -279,14 +292,107 @@ export default function Page() {
 
             {/* HONKAI IMPACT 3RD */}
             <div className="grid grid-rows-2 justify-center mt-5">
-              <div className="drop-shadow-lg w-72 h-36 overflow-hidden mb-3">
-                <Image src={hi3logo} ></Image>
+              <div className="drop-shadow-lg w-[250px] h-[150px] overflow-hidden ">
+                <Image src={hi3logo}></Image>
               </div>
               <div>
-                <h1 className="text-white text-xl text-center mt-2 font-bold">My Featured Valkyries</h1>
+                <h1 className="text-white text-xl text-center mt-2">My Featured Valkyries</h1>
               </div>
             </div>
+
+            <div className="flex flex-rows flex-wrap p-3 gap-6 justify-center -mt-24 max-[845px]:mx-0 max-[1366px]:mx-24 min-[1366px]:mx-44">
+
+              <div className="w-[300px] rounded-[12px] bg-gradient-to-r from-[#032866] to-[#10326b]">
+                <div className="w-[300px] h-[400px] rounded-[12px] overflow-hidden">
+                  <Image src={misspinkelf}/>
+                </div>
+                <div className="text-white text-center text-lg">
+                  <h1 className="mb-1 -mt-1.5">Miss Pink Elf</h1>
+                </div>
+              </div>
+
+              <div className="w-[300px] rounded-[12px] bg-gradient-to-r from-[#032866] to-[#10326b]">
+                <div className="w-[300px] h-[400px] rounded-[12px] overflow-hidden">
+                  <Image src={herrscherthunder}/>
+                </div>
+                <div className="text-white text-center text-lg">
+                  <h1 className="mb-1 -mt-1.5">Herrscher of Thunder</h1>
+                </div>
+              </div>
+
+              <div className="w-[300px] rounded-[12px] bg-gradient-to-r from-[#032866] to-[#10326b]">
+                <div className="w-[300px] h-[400px] rounded-[12px] overflow-hidden">
+                  <Image src={herrscherreason}/>
+                </div>
+                <div className="text-white text-center text-lg">
+                  <h1 className="mb-1 -mt-1.5">Herrscher of Reason</h1>
+                </div>
+              </div>
+
+              <div className="w-[300px] rounded-[12px] bg-gradient-to-r from-[#032866] to-[#10326b]">
+                <div className="w-[300px] h-[400px] rounded-[12px] overflow-hidden">
+                  <Image src={herrschervoid}/>
+                </div>
+                <div className="text-white text-center text-lg">
+                  <h1 className="mb-1 -mt-1.5">Herrscher of the Void</h1>
+                </div>
+              </div>
+
+              <div className="w-[300px] rounded-[12px] bg-gradient-to-r from-[#032866] to-[#10326b]">
+                <div className="w-[300px] h-[400px] rounded-[12px] overflow-hidden">
+                  <Image src={starchasmnyx}/>
+                </div>
+                <div className="text-white text-center text-lg">
+                  <h1 className="mb-1 -mt-1.5">Starchasm Nyx</h1>
+                </div>
+              </div>
+
+              <div className="w-[300px] rounded-[12px] bg-gradient-to-r from-[#032866] to-[#10326b]">
+                <div className="w-[300px] h-[400px] rounded-[12px] overflow-hidden">
+                  <Image src={shadowdash}/>
+                </div>
+                <div className="text-white text-center text-lg">
+                  <h1 className="mb-1 -mt-1.5">Shadow Dash</h1>
+                </div>
+              </div>
+
+              <div className="w-[300px] rounded-[12px] bg-gradient-to-r from-[#032866] to-[#10326b]">
+                <div className="w-[300px] h-[400px] rounded-[12px] overflow-hidden">
+                  <Image src={goldendiva}/>
+                </div>
+                <div className="text-white text-center text-lg">
+                  <h1 className="mb-1 -mt-1.5">Golden Diva</h1>
+                </div>
+              </div>
+
+              <div className="w-[300px] rounded-[12px] bg-gradient-to-r from-[#032866] to-[#10326b]">
+                <div className="w-[300px] h-[400px] rounded-[12px] overflow-hidden">
+                  <Image src={swallowtailphantasm}/>
+                </div>
+                <div className="text-white text-center text-lg">
+                  <h1 className="mb-1 -mt-1.5">Swallowtail Phantasm</h1>
+                </div>
+              </div>
+
+            </div>
+
+            <h1 className="text-center text-gray-500 mt-5 max-[470px]:text-[15px]">Honkai Impact 3rd - 23 December 2023</h1>
+            <br></br>
+
+            <hr className="mx-48 max-[470px]:mx-16"></hr>
+
+            {/* GENSHIN IMPACT */}
+            <div className="grid grid-rows-2 justify-center mt-8">
+              <div className="drop-shadow-lg w-[280px] h-[110px] overflow-hidden ">
+                <Image src={genshinlogo}></Image>
+              </div>
+              <div>
+                <h1 className="text-white text-xl text-center mt-3">My Featured Characters</h1>
+              </div>
+            </div>
+
         </div>
+        {/* HOYOVERSE END */}
 
       </div>
     )
