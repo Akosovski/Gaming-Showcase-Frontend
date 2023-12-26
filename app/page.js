@@ -42,28 +42,29 @@ export default function Page() {
 
           <section className="w-9/12 max-[1145px]:w-full mx-auto bg-[#091024] bg-opacity-80 max-[768px]:bg-opacity-60 steam-part max-[470px]:min-width-[350px] overflow-hidden">
             <navbar className="w-full h-32">
-              <div className="drop-shadow-lg w-48 h-16 overflow-hidden pt-5 pl-8">
+              <div className="drop-shadow-lg w-48 h-16 overflow-hidden pt-5 pl-8 max-[470px]:-ml-1 max-[330px]:-ml-5">
                 <a href="https://steamcommunity.com/id/royal_avene/" target="_blank" rel="noreferrer"><Image src={steamlogo}></Image></a>
               </div>
             </navbar>
+
             {/* PROFILE BAR */}
             <header className="px-4 flex flex-row justify-between max-[768px]:justify-start gap-5 max-[768px]:gap-7 max-[470px]:gap-1 text-white pb-4 pt-4 max-[768px]:h-[400px] max-[470px]:h-[320px]">
               <div className="flex flex-col md:flex-row gap-1 ml-5 max-[768px]:ml-2">
-                <div className="max-[768px]:order-last max-[768px]:ml-2 max-[768px]:-mt-[50px] w-48 drop-shadow-lg border-2 w-48 h-48 max-[470px]:w-28 max-[470px]:h-28 overflow-hidden mt-5 mb-5">
+                <div className="max-[768px]:order-last max-[768px]:ml-2 max-[768px]:-mt-[50px] w-48 drop-shadow-lg border-2 w-48 h-48 max-[470px]:w-28 max-[470px]:h-28 max-[330px]:-ml-[5px] overflow-hidden mt-5 mb-5">
                   <Image src={steamprofile} layout="fill" objectFit="cover"></Image>
                 </div>
-                <img className="absolute -ml-6 -mt-1 w-[239px] h-[240px] max-[768px]:z-50 max-[768px]:-ml-4 max-[768px]:mt-[72px] max-[470px]:w-[140px] max-[470px]:h-[140px] max-[470px]:-ml-[8px] max-[470px]:mt-[84px]" 
+                <img className="absolute -ml-6 -mt-1 w-[239px] h-[240px] max-[768px]:z-50 max-[768px]:-ml-4 max-[768px]:mt-[72px] max-[470px]:w-[140px] max-[470px]:h-[140px] max-[470px]:-ml-[8px] max-[470px]:mt-[84px] max-[330px]:-ml-[20px]" 
                 src="https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/items/1098340/71f42ec23a7f80c365f0c3900a6e61bdc78733d7.png"/>
 
                 <div className="grid grid-rows-2">
-                  <div className="p-4 pb-0 h-full ml-2 max-[768px]:w-max max-[768px]:-ml-2 max-[470px]:-ml-4">
+                  <div className="p-4 pb-0 h-full ml-2 max-[768px]:w-max max-[768px]:-ml-2 max-[470px]:-ml-4 max-[330px]:-ml-7">
                     <h1 className="text-2xl mt-4 max-[768px]:mt-0">Royal Avène</h1>
                     <h1 className="truncate">Akosovski &nbsp; &#127470;&#127465; Jakarta Raya, Indonesia</h1>
                   </div>
 
-                  <div className="p-4 pb-0 h-full ml-2 max-[768px]:w-max max-[768px]:-ml-2 max-[768px]:absolute max-[768px]:mt-[310px] max-[470px]:mt-[230px] max-[470px]:-ml-4">
+                  <div className="p-4 pb-0 h-full ml-2 max-[768px]:w-max max-[768px]:-ml-2 max-[768px]:absolute max-[768px]:mt-[310px] max-[470px]:mt-[230px] max-[470px]:-ml-4 max-[330px]:-ml-7">
                     <div className="border border-1 border-black bg-black h-[22px] w-fit">
-                    <h1 className="-mt-[4px] hover:text-white ml-1 w-fit cursor-text text-black">Jago Boleh, Goblok Jangan.</h1>
+                    <h1 className="-mt-[4px] hover:text-white ml-1 w-fit cursor-text text-black text-md max-[470px]:text-[14px] max-[470px]:-mt-0.5">Jago Boleh, Goblok Jangan.</h1>
                     </div>
                   </div>
 
@@ -107,26 +108,26 @@ export default function Page() {
               <div className="w-full mx-5 max-[600px]:mx-3 max-[470px]:mx-1.5 mb-5 rounded-[5px] bg-gradient-to-r from-[#142245] to-[#0a193e]">
                 <h1 className="ml-2.5 mt-1.5 mb-2 text-white">Game Collector</h1>
                 <div className="border-t-2 border-slate-900 bg-gradient-to-r from-[#071a42] to-[#090d24] p-3 rounded-b-[5px]">
-                  <div className="grid grid-cols-4 rounded-[5px] bg-[#050816] bg-opacity-60 p-2.5 text-white">
-                    <div>
+                  <div className="grid grid-cols-4 max-[470px]:flex max-[470px]:flex-cols max-[470px]:justify-between overflow-hidden rounded-[5px] bg-[#050816] bg-opacity-60 p-2.5 text-white">
+                    <div className="max-[470px]:min-w-[85px] max-[530px]:min-w-[135px]">
                       <h1 className="text-3xl max-[470px]:text-2xl">110</h1>
                       <a href="https://steamcommunity.com/id/royal_avene/games/" target="_blank" rel="noreferrer">
-                        <h1 className="truncate text-gray-400 text-lg max-[768px]:text-[18px] max-[600px]:text-[16px] max-[470px]:text-[13px] hover:text-white">Games Owned</h1></a>
+                        <h1 className="truncate text-gray-400 text-lg max-[768px]:text-[18px] max-[600px]:text-[16px] max-[470px]:text-[12px] hover:text-white">Games Owned</h1></a>
                     </div>
-                    <div className="ml-4">
+                    <div className="ml-3 max-[530px]:ml-4 max-[470px]:max-w-[68px] max-[330px]:ml-1.5">
                       <h1 className="text-3xl max-[470px]:text-2xl">215</h1>
                       <a href="https://steamcommunity.com/id/royal_avene/games/" target="_blank" rel="noreferrer">
-                        <h1 className="truncate text-gray-400 text-lg max-[768px]:text-[18px] max-[600px]:text-[16px] max-[470px]:text-[13px] hover:text-white">DLC Owned</h1></a>
+                        <h1 className="truncate text-gray-400 text-lg max-[768px]:text-[18px] max-[600px]:text-[16px] max-[470px]:text-[12px] hover:text-white">DLC Owned</h1></a>
                     </div>
-                    <div className="ml-5">
+                    <div className="ml-3 max-[470px]:max-w-[48px] max-[470px]:ml-3 max-[330px]:ml-1.5">
                       <h1 className="text-3xl max-[470px]:text-2xl">44</h1>
                       <a href="https://steamcommunity.com/id/royal_avene/recommended/" target="_blank" rel="noreferrer">
-                        <h1 className="truncate text-gray-400 text-lg max-[768px]:text-[18px] max-[600px]:text-[16px] max-[470px]:text-[13px] hover:text-white">Reviews</h1></a>
+                        <h1 className="truncate text-gray-400 text-lg max-[768px]:text-[18px] max-[600px]:text-[16px] max-[470px]:text-[12px] hover:text-white">Reviews</h1></a>
                     </div>
-                    <div className="ml-2">
+                    <div className="ml-3 max-[470px]:max-w-[60px] max-[470px]:ml-3 max-[330px]:ml-1.5">
                       <h1 className="text-3xl max-[470px]:text-2xl">9</h1>
                       <a href="https://store.steampowered.com/wishlist/id/royal_avene/" target="_blank" rel="noreferrer">
-                        <h1 className="truncate text-gray-400 text-lg max-[768px]:text-[18px] max-[600px]:text-[16px] max-[470px]:text-[13px] hover:text-white">Wishlisted</h1></a>
+                        <h1 className="truncate text-gray-400 text-lg max-[768px]:text-[18px] max-[600px]:text-[16px] max-[470px]:text-[12px] hover:text-white">Wishlisted</h1></a>
                     </div>
                   </div>
 
@@ -154,20 +155,20 @@ export default function Page() {
               <div className="w-full mx-5 max-[600px]:mx-3 max-[470px]:mx-1.5 mb-5 rounded-[5px] bg-gradient-to-r from-[#142245] to-[#0a193e]">
                 <h1 className="ml-2.5 mt-1.5 mb-2 text-white">Achievement Showcase</h1>
                 <div className="border-t-2 border-slate-900 bg-gradient-to-r from-[#071a42] to-[#090d24] p-3 rounded-b-[5px]">
-                  <div className="flex flex-cols max-[461px]:grid max-[461px]:grid-cols-3 rounded-[5px] bg-[#050816] bg-opacity-60 p-2.5 text-white">
-                    <div className="mr-10 max-[768px]:mr-5 max-[470px]:mr-1.5">
+                  <div className="grid grid-cols-4 max-[470px]:flex max-[470px]:flex-cols max-[470px]:justify-between overflow-hidden rounded-[5px] bg-[#050816] bg-opacity-60 p-2.5 text-white">
+                    <div className="max-[768px]:mr-3 max-[470px]:mr-1.5 min-[600px]:min-w-[120px]">
                       <h1 className="text-3xl max-[470px]:text-2xl truncate">1,544</h1>
-                      <h1 className="truncate text-gray-400 text-lg max-[768px]:text-[18px] max-[600px]:text-[16px] max-[530px]:text-[13px]">Achievements</h1>
+                      <h1 className="truncate text-gray-400 text-lg max-[768px]:text-[18px] max-[600px]:text-[16px] max-[530px]:text-[14px] max-[470px]:text-[12px]">Achievements</h1>
                     </div>
-                    <div className="mr-8 max-[768px]:mr-1.5">
+                    <div className="max-[768px]:mr-3 max-[470px]:mr-1.5 min-[600px]:min-w-[125px] min-[470px]:min-w-[97px]">
                       <h1 className="text-3xl max-[470px]:text-2xl">1</h1>
                       <a href="https://steamcommunity.com/id/royal_avene/games/?tab=perfect" target="_blank" rel="noreferrer">
-                        <h1 className="truncate text-gray-400 text-lg max-[768px]:text-[18px] max-[600px]:text-[16px] max-[530px]:text-[13px] hover:text-white">Perfect Games</h1></a>
+                        <h1 className="truncate text-gray-400 text-lg max-[768px]:text-[18px] max-[600px]:text-[16px] max-[530px]:text-[14px] max-[470px]:text-[12px] hover:text-white">Perfect Games</h1></a>
                     </div>
-                    <div className="ml-5 max-[461px]:ml-0">
+                    <div className="min-[600px]:min-w-[240px] min-[470px]:min-w-[188px] max-[385px]:max-w-[75px]">
                       <h1 className="text-3xl max-[470px]:text-2xl">34%</h1>
                       <a href="https://steamcommunity.com/id/royal_avene/games/?tab=all&sort=achievements" target="_blank" rel="noreferrer">
-                        <h1 className="truncate text-gray-400 text-lg max-[768px]:text-[18px] max-[600px]:text-[16px] max-[530px]:text-[13px] hover:text-white">Avg. Game Completion Rate</h1></a>
+                        <h1 className="truncate text-gray-400 text-lg max-[768px]:text-[18px] max-[600px]:text-[16px] max-[530px]:text-[14px] max-[470px]:text-[12px] hover:text-white">Avg. Game Completion Rate</h1></a>
                     </div>
                   </div>
 
@@ -175,7 +176,7 @@ export default function Page() {
               </div>
 
             </main>
-            <h1 className="text-center text-gray-500  max-[470px]:text-[15px]">Steam&reg; - 22 December 2023</h1>
+            <h1 className="text-center text-gray-500  max-[470px]:text-[15px]">Steam&reg; - 26 December 2023</h1>
             <br></br>
           </section>
         </div>
@@ -186,11 +187,11 @@ export default function Page() {
         {/* HOYOVERSE START */}
         <div className="bg-[#0c0f1d] h-full">
             <div className="flex flex-row justify-center">
-              <div className="w-48 drop-shadow-lg w-48 h-48 max-[470px]:w-28 max-[470px]:h-28 overflow-hidden m-7 max-[470px]:ml-4 max-[470px]:mr-5">
+              <div className="w-48 drop-shadow-lg w-48 h-48 max-[470px]:w-28 max-[470px]:h-28 max-[335px]:w-24 max-[335px]:h-24 overflow-hidden m-7 max-[470px]:ml-4 max-[470px]:mr-5">
                 <Image src={hoyoprofile} layout="fill" objectFit="cover"></Image>
               </div>
-              <div className="grid grid-cols content-center w-48 max-[470px]:-ml-2">
-                <div className="drop-shadow-lg w-44 h-8 overflow-hidden mb-3">
+              <div className="grid grid-cols content-center w-48 max-[470px]:-ml-2  max-[335px]:-ml-0.5">
+                <div className="drop-shadow-lg w-44 h-8 max-[470px]:w-[132px] max-[470px]:h-6 overflow-hidden mb-3">
                   <Image src={hoyolablogo} layout="fill" objectFit="cover"></Image>
                 </div>
                 <div className="flex flex-row gap-3">
