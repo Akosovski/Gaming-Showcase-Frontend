@@ -187,7 +187,7 @@ export default function Page() {
                     </div>
                     <div className="max-[768px]:mr-5 min-[600px]:min-w-[165px] min-[470px]:min-w-[97px]">
                       <h1 className="text-3xl max-[470px]:text-2xl">1</h1>
-                      <a href="https://steamcommunity.com/id/royal_avene/games/?tab=perfect" target="_blank" rel="noreferrer">
+                      <a href="https://steamcommunity.com/id/royal_avene/badges/" target="_blank" rel="noreferrer">
                         <h1 className="truncate text-gray-400 text-lg max-[768px]:text-[18px] max-[600px]:text-[16px] max-[530px]:text-[14px] max-[470px]:text-[12px] hover:text-white">Foil Badges Earned</h1></a>
                     </div>
                   </div>
