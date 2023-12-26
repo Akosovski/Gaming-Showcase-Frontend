@@ -105,6 +105,7 @@ export default function Page() {
             {/* MAIN STATS */}
             <main className="flex flex-wrap justify-center">
 
+              {/* GAME COLLECTOR */}
               <div className="w-full mx-5 max-[600px]:mx-3 max-[470px]:mx-1.5 mb-5 rounded-[5px] bg-gradient-to-r from-[#142245] to-[#0a193e]">
                 <h1 className="ml-2.5 mt-1.5 mb-2 text-white">Game Collector</h1>
                 <div className="border-t-2 border-slate-900 bg-gradient-to-r from-[#071a42] to-[#090d24] p-3 rounded-b-[5px]">
@@ -169,6 +170,25 @@ export default function Page() {
                       <h1 className="text-3xl max-[470px]:text-2xl">34%</h1>
                       <a href="https://steamcommunity.com/id/royal_avene/games/?tab=all&sort=achievements" target="_blank" rel="noreferrer">
                         <h1 className="truncate text-gray-400 text-lg max-[768px]:text-[18px] max-[600px]:text-[16px] max-[530px]:text-[14px] max-[470px]:text-[12px] hover:text-white">Avg. Game Completion Rate</h1></a>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+
+              {/* BADGES */}
+              <div className="w-full mx-5 max-[600px]:mx-3 max-[470px]:mx-1.5 mb-5 rounded-[5px] bg-gradient-to-r from-[#142245] to-[#0a193e]">
+                <h1 className="ml-2.5 mt-1.5 mb-2 text-white">Badge Collector</h1>
+                <div className="border-t-2 border-slate-900 bg-gradient-to-r from-[#071a42] to-[#090d24] p-3 rounded-b-[5px]">
+                  <div className="grid grid-cols-2 max-[768px]:flex max-[768px]:flex-cols max-[768px]:justify-start overflow-hidden rounded-[5px] bg-[#050816] bg-opacity-60 p-2.5 text-white">
+                    <div className="max-[768px]:mr-5 min-[600px]:min-w-[180px]">
+                      <h1 className="text-3xl max-[470px]:text-2xl truncate">55</h1>
+                      <h1 className="truncate text-gray-400 text-lg max-[768px]:text-[18px] max-[600px]:text-[16px] max-[530px]:text-[14px] max-[470px]:text-[12px]">Total Badges Earned</h1>
+                    </div>
+                    <div className="max-[768px]:mr-5 min-[600px]:min-w-[165px] min-[470px]:min-w-[97px]">
+                      <h1 className="text-3xl max-[470px]:text-2xl">1</h1>
+                      <a href="https://steamcommunity.com/id/royal_avene/games/?tab=perfect" target="_blank" rel="noreferrer">
+                        <h1 className="truncate text-gray-400 text-lg max-[768px]:text-[18px] max-[600px]:text-[16px] max-[530px]:text-[14px] max-[470px]:text-[12px] hover:text-white">Foil Badges Earned</h1></a>
                     </div>
                   </div>
 
