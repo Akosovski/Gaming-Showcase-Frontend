@@ -54,7 +54,7 @@ export default function Page() {
         {/* STEAM START */}
         <div className="bg-[url('../public/images/steambg.gif')] bg-cover">
 
-          <section className="max-[1100px]:w-full w-[1000px] mx-auto bg-[#091024] bg-opacity-80 max-[768px]:bg-opacity-60 steam-part max-[470px]:min-w-[350px] overflow-hidden">
+          <section className="max-[1100px]:w-full w-[1000px] mx-auto bg-[#091024] bg-opacity-80 max-[768px]:bg-opacity-60 steam-part overflow-hidden">
             <navbar className="w-full h-32">
               <div className="drop-shadow-lg w-48 h-16 overflow-hidden pt-5 pl-8 max-[470px]:-ml-1 max-[330px]:-ml-5">
                 <a href="https://steamcommunity.com/id/royal_avene/" target="_blank" rel="noreferrer"><Image src={steamlogo}></Image></a>
@@ -123,7 +123,7 @@ export default function Page() {
               <div className="w-full mx-5 max-[600px]:mx-3 max-[470px]:mx-1.5 mb-5 rounded-[5px] bg-gradient-to-r from-[#142245] to-[#0a193e]">
                 <h1 className="ml-2.5 mt-1.5 mb-2 text-white">Game Collector</h1>
                 <div className="border-t-2 border-slate-900 bg-gradient-to-r from-[#071a42] to-[#090d24] p-3 rounded-b-[5px]">
-                  <div className="grid grid-cols-4 max-[470px]:flex max-[470px]:flex-cols max-[470px]:justify-between overflow-hidden rounded-[5px] bg-[#050816] bg-opacity-60 p-2.5 text-white max-[330px]:min-w-[280px]">
+                  <div className="grid grid-cols-4 max-[470px]:flex max-[470px]:flex-cols max-[470px]:justify-between overflow-hidden rounded-[5px] bg-[#050816] bg-opacity-60 p-2.5 text-white">
                     <div className="max-[470px]:min-w-[85px] max-[530px]:min-w-[135px]">
                       <h1 className="text-3xl max-[470px]:text-2xl">110</h1>
                       <a href="https://steamcommunity.com/id/royal_avene/games/" target="_blank" rel="noreferrer">
@@ -148,7 +148,7 @@ export default function Page() {
 
                   {/* FEATURED */}
                   <h1 className="ml-0.5 mt-2 mb-2 text-gray-400">Featured Games</h1>
-                  <div className="flex flex-row-4 gap-1.5 max-[330px]:min-w-[280px]">
+                  <div className="flex flex-row-4 gap-1.5">
                     <div className="grow">
                       <a href="https://store.steampowered.com/app/1245620/ELDEN_RING/" target="_blank" rel="noreferrer"><Image src={eldenring} className="w-full"></Image></a>
                     </div>
@@ -171,56 +171,56 @@ export default function Page() {
                 <h1 className="ml-2.5 mt-1.5 mb-2 text-white">Achievement Showcase</h1>
 
                 <div className="bg-gradient-to-r from-[#071a42] to-[#090d24] p-3 pb-0">
-                  <div className="grid grid-cols-7 justify-items-center overflow-hidden rounded-t-[5px] bg-[#050816] bg-opacity-60 p-2.5 pb-0.5 max-[330px]:p-1.5 max-[330px]:pb-0 max-[330px]:min-w-[280px] text-white">
-                    <div className="w-[66px] h-[66px] max-[570px]:w-[48px] max-[570px]:h-[48px] max-[570px]:w-[36px] max-[570px]:h-[36px]">
+                  <div className="grid grid-cols-7 justify-items-center overflow-hidden rounded-t-[5px] bg-[#050816] bg-opacity-60 p-2.5 pb-0.5 max-[330px]:p-1.5 max-[330px]:pb-0 text-white">
+                    <div className="w-[66px] h-[66px] max-[570px]:w-[48px] max-[570px]:h-[48px] max-[570px]:w-[36px] max-[570px]:h-[36px] max-[370px]:w-[30px] max-[370px]:h-[30px]">
                       <Image src={eldenring1}></Image>
                     </div>
-                    <div className="w-[66px] h-[66px] max-[570px]:w-[48px] max-[570px]:h-[48px] max-[570px]:w-[36px] max-[570px]:h-[36px]">
+                    <div className="w-[66px] h-[66px] max-[570px]:w-[48px] max-[570px]:h-[48px] max-[570px]:w-[36px] max-[570px]:h-[36px] max-[370px]:w-[30px] max-[370px]:h-[30px]">
                       <Image src={hatred1}></Image>
                     </div>
-                    <div className="w-[66px] h-[66px] max-[570px]:w-[48px] max-[570px]:h-[48px] max-[570px]:w-[36px] max-[570px]:h-[36px]">
+                    <div className="w-[66px] h-[66px] max-[570px]:w-[48px] max-[570px]:h-[48px] max-[570px]:w-[36px] max-[570px]:h-[36px] max-[370px]:w-[30px] max-[370px]:h-[30px]">
                       <Image src={ron1}></Image>
                     </div>
-                    <div className="w-[66px] h-[66px] max-[570px]:w-[48px] max-[570px]:h-[48px] max-[570px]:w-[36px] max-[570px]:h-[36px]">
+                    <div className="w-[66px] h-[66px] max-[570px]:w-[48px] max-[570px]:h-[48px] max-[570px]:w-[36px] max-[570px]:h-[36px] max-[370px]:w-[30px] max-[370px]:h-[30px]">
                       <Image src={hatred2}></Image>
                     </div>
-                    <div className="w-[66px] h-[66px] max-[570px]:w-[48px] max-[570px]:h-[48px] max-[570px]:w-[36px] max-[570px]:h-[36px]">
+                    <div className="w-[66px] h-[66px] max-[570px]:w-[48px] max-[570px]:h-[48px] max-[570px]:w-[36px] max-[570px]:h-[36px] max-[370px]:w-[30px] max-[370px]:h-[30px]">
                       <Image src={ron2}></Image>
                     </div>
-                    <div className="w-[66px] h-[66px] max-[570px]:w-[48px] max-[570px]:h-[48px] max-[570px]:w-[36px] max-[570px]:h-[36px]">
+                    <div className="w-[66px] h-[66px] max-[570px]:w-[48px] max-[570px]:h-[48px] max-[570px]:w-[36px] max-[570px]:h-[36px] max-[370px]:w-[30px] max-[370px]:h-[30px]">
                       <Image src={hatred3}></Image>
                     </div>
-                    <div className="w-[66px] h-[66px] max-[570px]:w-[48px] max-[570px]:h-[48px] max-[570px]:w-[36px] max-[570px]:h-[36px]">
+                    <div className="w-[66px] h-[66px] max-[570px]:w-[48px] max-[570px]:h-[48px] max-[570px]:w-[36px] max-[570px]:h-[36px] max-[370px]:w-[30px] max-[370px]:h-[30px]">
                       <Image src={eldenring2}></Image>
                     </div>
                   </div>
-                  <div className="grid grid-cols-7 justify-items-center overflow-hidden rounded-b-[5px] bg-[#050816] bg-opacity-60 p-2.5 pt-0.5 max-[330px]:p-1.5 text-white max-[330px]:min-w-[280px]">
-                    <div className="w-[64px] h-[64px] max-[570px]:w-[48px] max-[570px]:h-[48px] max-[570px]:w-[36px] max-[570px]:h-[36px]">
+                  <div className="grid grid-cols-7 justify-items-center overflow-hidden rounded-b-[5px] bg-[#050816] bg-opacity-60 p-2.5 pt-0.5 max-[330px]:p-1.5 text-white">
+                    <div className="w-[64px] h-[64px] max-[570px]:w-[48px] max-[570px]:h-[48px] max-[570px]:w-[36px] max-[570px]:h-[36px] max-[370px]:w-[30px] max-[370px]:h-[30px]">
                       <Image src={rise}></Image>
                     </div>
-                    <div className="w-[66px] h-[66px] max-[570px]:w-[48px] max-[570px]:h-[48px] max-[570px]:w-[36px] max-[570px]:h-[36px]">
+                    <div className="w-[66px] h-[66px] max-[570px]:w-[48px] max-[570px]:h-[48px] max-[570px]:w-[36px] max-[570px]:h-[36px] max-[370px]:w-[30px] max-[370px]:h-[30px]">
                       <Image src={ac7}></Image>
                     </div>
-                    <div className="w-[66px] h-[66px] max-[570px]:w-[48px] max-[570px]:h-[48px] max-[570px]:w-[36px] max-[570px]:h-[36px]">
+                    <div className="w-[66px] h-[66px] max-[570px]:w-[48px] max-[570px]:h-[48px] max-[570px]:w-[36px] max-[570px]:h-[36px] max-[370px]:w-[30px] max-[370px]:h-[30px]">
                       <Image src={mhw}></Image>
                     </div>
-                    <div className="w-[66px] h-[66px] max-[570px]:w-[48px] max-[570px]:h-[48px] max-[570px]:w-[36px] max-[570px]:h-[36px]">
+                    <div className="w-[66px] h-[66px] max-[570px]:w-[48px] max-[570px]:h-[48px] max-[570px]:w-[36px] max-[570px]:h-[36px] max-[370px]:w-[30px] max-[370px]:h-[30px]">
                       <Image src={sandstorm}></Image>
                     </div>
-                    <div className="w-[66px] h-[66px] max-[570px]:w-[48px] max-[570px]:h-[48px] max-[570px]:w-[36px] max-[570px]:h-[36px]">
+                    <div className="w-[66px] h-[66px] max-[570px]:w-[48px] max-[570px]:h-[48px] max-[570px]:w-[36px] max-[570px]:h-[36px] max-[370px]:w-[30px] max-[370px]:h-[30px]">
                       <Image src={phantoms}></Image>
                     </div>
-                    <div className="w-[66px] h-[66px] max-[570px]:w-[48px] max-[570px]:h-[48px] max-[570px]:w-[36px] max-[570px]:h-[36px]">
+                    <div className="w-[66px] h-[66px] max-[570px]:w-[48px] max-[570px]:h-[48px] max-[570px]:w-[36px] max-[570px]:h-[36px] max-[370px]:w-[30px] max-[370px]:h-[30px]">
                       <Image src={payday2}></Image>
                     </div> 
-                    <div className="w-[66px] h-[66px] max-[570px]:w-[48px] max-[570px]:h-[48px] max-[570px]:w-[36px] max-[570px]:h-[36px]">
+                    <div className="w-[66px] h-[66px] max-[570px]:w-[48px] max-[570px]:h-[48px] max-[570px]:w-[36px] max-[570px]:h-[36px] max-[370px]:w-[30px] max-[370px]:h-[30px]">
                       <Image src={arma3}></Image>
                     </div>
                   </div>
                 </div>
 
                 <div className="bg-gradient-to-r from-[#071a42] to-[#090d24] p-3 rounded-b-[5px]">
-                  <div className="grid grid-cols-4 max-[470px]:flex max-[470px]:flex-cols max-[470px]:justify-between overflow-hidden rounded-[5px] bg-[#050816] bg-opacity-60 p-2.5 text-white max-[330px]:min-w-[280px]">
+                  <div className="grid grid-cols-4 max-[470px]:flex max-[470px]:flex-cols max-[470px]:justify-between overflow-hidden rounded-[5px] bg-[#050816] bg-opacity-60 p-2.5 text-white">
                     <div className="max-[768px]:mr-3 max-[470px]:mr-1.5 min-[600px]:min-w-[120px]">
                       <h1 className="text-3xl max-[470px]:text-2xl truncate">1,548</h1>
                       <h1 className="truncate text-gray-400 text-lg max-[768px]:text-[18px] max-[600px]:text-[16px] max-[530px]:text-[14px] max-[470px]:text-[12px]">Achievements</h1>
@@ -244,7 +244,7 @@ export default function Page() {
               <div className="w-full mx-5 max-[600px]:mx-3 max-[470px]:mx-1.5 mb-5 rounded-[5px] bg-gradient-to-r from-[#142245] to-[#0a193e]">
                 <h1 className="ml-2.5 mt-1.5 mb-2 text-white">Badge Collector</h1>
                 <div className="border-t-2 border-slate-900 bg-gradient-to-r from-[#071a42] to-[#090d24] p-3 rounded-b-[5px]">
-                  <div className="grid grid-cols-3 max-[768px]:flex max-[768px]:flex-cols max-[768px]:justify-start overflow-hidden rounded-[5px] bg-[#050816] bg-opacity-60 p-2.5 text-white max-[330px]:min-w-[280px]">
+                  <div className="grid grid-cols-3 max-[768px]:flex max-[768px]:flex-cols max-[768px]:justify-start overflow-hidden rounded-[5px] bg-[#050816] bg-opacity-60 p-2.5 text-white">
                     <div className="max-[768px]:mr-5 min-[600px]:min-w-[180px]">
                       <h1 className="text-3xl max-[470px]:text-2xl truncate">55</h1>
                       <h1 className="truncate text-gray-400 text-lg max-[768px]:text-[18px] max-[600px]:text-[16px] max-[530px]:text-[14px] max-[470px]:text-[12px]">Total Badges Earned</h1>
@@ -257,6 +257,10 @@ export default function Page() {
                   </div>
 
                 </div>
+              </div>
+
+              <div className="w-full mx-5 max-[600px]:mx-3 max-[470px]:mx-1.5 mb-5 rounded-[5px] bg-gradient-to-r from-[#142245] to-[#0a193e]">
+                <h1 className="ml-2.5 mt-1.5 mb-2 text-center text-white text-[18px] max-[470px]:text-[16px] max-[390px]:text-[14px] max-[390px]:text-left">Total Playtime : <span className="font-bold">6,823h</span> / <span className="font-bold">758.11h</span> per year</h1>
               </div>
 
             </main>
