@@ -6,13 +6,27 @@ import Image from "next/image";
 import '../styles/globals.css';
 
 {/* STEAM IMAGES */}
-import steamprofile from "../public/images/defaultprofile.jpg";
 import steamlogo from "../public/images/steamlogo.png";
 import powerplayer from "../public/images/powerplayer.png";
+import steamprofile from "../public/images/defaultprofile.jpg";
 import readyornot from "../public/images/readyornot.jpg";
 import eldenring from "../public/images/eldenring.jpg";
 import bannerlord from "../public/images/bannerlord.jpg";
 import xplane12 from "../public/images/xplane12.jpg";
+import eldenring1 from "../public/images/eldenring1.jpg";
+import eldenring2 from "../public/images/eldenring2.jpg";
+import hatred1 from "../public/images/hatred1.jpg";
+import hatred2 from "../public/images/hatred2.jpg";
+import hatred3 from "../public/images/hatred3.jpg";
+import ac7 from "../public/images/ac7.jpg";
+import arma3 from "../public/images/ac7.jpg";
+import mhw from "../public/images/mhw.jpg";
+import payday2 from "../public/images/payday2.jpg";
+import phantoms from "../public/images/phantoms.jpg";
+import rise from "../public/images/rise.jpg";
+import ron1 from "../public/images/ron1.jpg";
+import ron2 from "../public/images/ron2.jpg";
+import sandstorm from "../public/images/sandstorm.jpg";
 
 {/* HOYOVERSE IMAGES */}
 import hoyoprofile from "../public/images/hoyoprofile.png";
@@ -38,9 +52,9 @@ export default function Page() {
         </Head>
 
         {/* STEAM START */}
-        <div className="bg-[url('../public/images/steambg.gif')]">
+        <div className="bg-[url('../public/images/steambg.gif')] bg-cover">
 
-          <section className="w-9/12 max-[1145px]:w-full mx-auto bg-[#091024] bg-opacity-80 max-[768px]:bg-opacity-60 steam-part max-[470px]:min-width-[350px] overflow-hidden">
+          <section className="max-[1100px]:w-full w-[1000px] mx-auto bg-[#091024] bg-opacity-80 max-[768px]:bg-opacity-60 steam-part max-[470px]:min-w-[350px] overflow-hidden">
             <navbar className="w-full h-32">
               <div className="drop-shadow-lg w-48 h-16 overflow-hidden pt-5 pl-8 max-[470px]:-ml-1 max-[330px]:-ml-5">
                 <a href="https://steamcommunity.com/id/royal_avene/" target="_blank" rel="noreferrer"><Image src={steamlogo}></Image></a>
@@ -48,7 +62,7 @@ export default function Page() {
             </navbar>
 
             {/* PROFILE BAR */}
-            <header className="px-4 flex flex-row justify-between max-[768px]:justify-start gap-5 max-[768px]:gap-7 max-[470px]:gap-1 text-white pb-4 pt-4 max-[768px]:h-[400px] max-[470px]:h-[320px]">
+            <header className="px-4 flex flex-row justify-between max-[768px]:justify-start gap-5 max-[768px]:gap-7 max-[470px]:gap-1 text-white pb-4 pt-4 max-[768px]:h-[390px] max-[470px]:h-[320px]">
               <div className="flex flex-col md:flex-row gap-1 ml-5 max-[768px]:ml-2">
                 <div className="max-[768px]:order-last max-[768px]:ml-2 max-[768px]:-mt-[50px] w-48 drop-shadow-lg border-2 w-48 h-48 max-[470px]:w-28 max-[470px]:h-28 max-[330px]:-ml-[5px] overflow-hidden mt-5 mb-5">
                   <Image src={steamprofile} layout="fill" objectFit="cover"></Image>
@@ -109,7 +123,7 @@ export default function Page() {
               <div className="w-full mx-5 max-[600px]:mx-3 max-[470px]:mx-1.5 mb-5 rounded-[5px] bg-gradient-to-r from-[#142245] to-[#0a193e]">
                 <h1 className="ml-2.5 mt-1.5 mb-2 text-white">Game Collector</h1>
                 <div className="border-t-2 border-slate-900 bg-gradient-to-r from-[#071a42] to-[#090d24] p-3 rounded-b-[5px]">
-                  <div className="grid grid-cols-4 max-[470px]:flex max-[470px]:flex-cols max-[470px]:justify-between overflow-hidden rounded-[5px] bg-[#050816] bg-opacity-60 p-2.5 text-white">
+                  <div className="grid grid-cols-4 max-[470px]:flex max-[470px]:flex-cols max-[470px]:justify-between overflow-hidden rounded-[5px] bg-[#050816] bg-opacity-60 p-2.5 text-white max-[330px]:min-w-[280px]">
                     <div className="max-[470px]:min-w-[85px] max-[530px]:min-w-[135px]">
                       <h1 className="text-3xl max-[470px]:text-2xl">110</h1>
                       <a href="https://steamcommunity.com/id/royal_avene/games/" target="_blank" rel="noreferrer">
@@ -134,7 +148,7 @@ export default function Page() {
 
                   {/* FEATURED */}
                   <h1 className="ml-0.5 mt-2 mb-2 text-gray-400">Featured Games</h1>
-                  <div className="flex flex-row-4 gap-1.5">
+                  <div className="flex flex-row-4 gap-1.5 max-[330px]:min-w-[280px]">
                     <div className="grow">
                       <a href="https://store.steampowered.com/app/1245620/ELDEN_RING/" target="_blank" rel="noreferrer"><Image src={eldenring} className="w-full"></Image></a>
                     </div>
@@ -155,8 +169,58 @@ export default function Page() {
               {/* ACHIEVEMENTS */}
               <div className="w-full mx-5 max-[600px]:mx-3 max-[470px]:mx-1.5 mb-5 rounded-[5px] bg-gradient-to-r from-[#142245] to-[#0a193e]">
                 <h1 className="ml-2.5 mt-1.5 mb-2 text-white">Achievement Showcase</h1>
-                <div className="border-t-2 border-slate-900 bg-gradient-to-r from-[#071a42] to-[#090d24] p-3 rounded-b-[5px]">
-                  <div className="grid grid-cols-4 max-[470px]:flex max-[470px]:flex-cols max-[470px]:justify-between overflow-hidden rounded-[5px] bg-[#050816] bg-opacity-60 p-2.5 text-white">
+
+                <div className="bg-gradient-to-r from-[#071a42] to-[#090d24] p-3 pb-0">
+                  <div className="grid grid-cols-7 justify-items-center overflow-hidden rounded-t-[5px] bg-[#050816] bg-opacity-60 p-2.5 pb-0.5 max-[330px]:p-1.5 max-[330px]:pb-0 max-[330px]:min-w-[280px] text-white">
+                    <div className="w-[66px] h-[66px] max-[570px]:w-[48px] max-[570px]:h-[48px] max-[570px]:w-[36px] max-[570px]:h-[36px]">
+                      <Image src={eldenring1}></Image>
+                    </div>
+                    <div className="w-[66px] h-[66px] max-[570px]:w-[48px] max-[570px]:h-[48px] max-[570px]:w-[36px] max-[570px]:h-[36px]">
+                      <Image src={hatred1}></Image>
+                    </div>
+                    <div className="w-[66px] h-[66px] max-[570px]:w-[48px] max-[570px]:h-[48px] max-[570px]:w-[36px] max-[570px]:h-[36px]">
+                      <Image src={ron1}></Image>
+                    </div>
+                    <div className="w-[66px] h-[66px] max-[570px]:w-[48px] max-[570px]:h-[48px] max-[570px]:w-[36px] max-[570px]:h-[36px]">
+                      <Image src={hatred2}></Image>
+                    </div>
+                    <div className="w-[66px] h-[66px] max-[570px]:w-[48px] max-[570px]:h-[48px] max-[570px]:w-[36px] max-[570px]:h-[36px]">
+                      <Image src={ron2}></Image>
+                    </div>
+                    <div className="w-[66px] h-[66px] max-[570px]:w-[48px] max-[570px]:h-[48px] max-[570px]:w-[36px] max-[570px]:h-[36px]">
+                      <Image src={hatred3}></Image>
+                    </div>
+                    <div className="w-[66px] h-[66px] max-[570px]:w-[48px] max-[570px]:h-[48px] max-[570px]:w-[36px] max-[570px]:h-[36px]">
+                      <Image src={eldenring2}></Image>
+                    </div>
+                  </div>
+                  <div className="grid grid-cols-7 justify-items-center overflow-hidden rounded-b-[5px] bg-[#050816] bg-opacity-60 p-2.5 pt-0.5 max-[330px]:p-1.5 text-white max-[330px]:min-w-[280px]">
+                    <div className="w-[64px] h-[64px] max-[570px]:w-[48px] max-[570px]:h-[48px] max-[570px]:w-[36px] max-[570px]:h-[36px]">
+                      <Image src={rise}></Image>
+                    </div>
+                    <div className="w-[66px] h-[66px] max-[570px]:w-[48px] max-[570px]:h-[48px] max-[570px]:w-[36px] max-[570px]:h-[36px]">
+                      <Image src={ac7}></Image>
+                    </div>
+                    <div className="w-[66px] h-[66px] max-[570px]:w-[48px] max-[570px]:h-[48px] max-[570px]:w-[36px] max-[570px]:h-[36px]">
+                      <Image src={mhw}></Image>
+                    </div>
+                    <div className="w-[66px] h-[66px] max-[570px]:w-[48px] max-[570px]:h-[48px] max-[570px]:w-[36px] max-[570px]:h-[36px]">
+                      <Image src={sandstorm}></Image>
+                    </div>
+                    <div className="w-[66px] h-[66px] max-[570px]:w-[48px] max-[570px]:h-[48px] max-[570px]:w-[36px] max-[570px]:h-[36px]">
+                      <Image src={phantoms}></Image>
+                    </div>
+                    <div className="w-[66px] h-[66px] max-[570px]:w-[48px] max-[570px]:h-[48px] max-[570px]:w-[36px] max-[570px]:h-[36px]">
+                      <Image src={payday2}></Image>
+                    </div> 
+                    <div className="w-[66px] h-[66px] max-[570px]:w-[48px] max-[570px]:h-[48px] max-[570px]:w-[36px] max-[570px]:h-[36px]">
+                      <Image src={arma3}></Image>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="bg-gradient-to-r from-[#071a42] to-[#090d24] p-3 rounded-b-[5px]">
+                  <div className="grid grid-cols-4 max-[470px]:flex max-[470px]:flex-cols max-[470px]:justify-between overflow-hidden rounded-[5px] bg-[#050816] bg-opacity-60 p-2.5 text-white max-[330px]:min-w-[280px]">
                     <div className="max-[768px]:mr-3 max-[470px]:mr-1.5 min-[600px]:min-w-[120px]">
                       <h1 className="text-3xl max-[470px]:text-2xl truncate">1,548</h1>
                       <h1 className="truncate text-gray-400 text-lg max-[768px]:text-[18px] max-[600px]:text-[16px] max-[530px]:text-[14px] max-[470px]:text-[12px]">Achievements</h1>
@@ -172,15 +236,15 @@ export default function Page() {
                         <h1 className="truncate text-gray-400 text-lg max-[768px]:text-[18px] max-[600px]:text-[16px] max-[530px]:text-[14px] max-[470px]:text-[12px] hover:text-white">Avg. Game Completion Rate</h1></a>
                     </div>
                   </div>
-
                 </div>
+
               </div>
 
               {/* BADGES */}
               <div className="w-full mx-5 max-[600px]:mx-3 max-[470px]:mx-1.5 mb-5 rounded-[5px] bg-gradient-to-r from-[#142245] to-[#0a193e]">
                 <h1 className="ml-2.5 mt-1.5 mb-2 text-white">Badge Collector</h1>
                 <div className="border-t-2 border-slate-900 bg-gradient-to-r from-[#071a42] to-[#090d24] p-3 rounded-b-[5px]">
-                  <div className="grid grid-cols-2 max-[768px]:flex max-[768px]:flex-cols max-[768px]:justify-start overflow-hidden rounded-[5px] bg-[#050816] bg-opacity-60 p-2.5 text-white">
+                  <div className="grid grid-cols-3 max-[768px]:flex max-[768px]:flex-cols max-[768px]:justify-start overflow-hidden rounded-[5px] bg-[#050816] bg-opacity-60 p-2.5 text-white max-[330px]:min-w-[280px]">
                     <div className="max-[768px]:mr-5 min-[600px]:min-w-[180px]">
                       <h1 className="text-3xl max-[470px]:text-2xl truncate">55</h1>
                       <h1 className="truncate text-gray-400 text-lg max-[768px]:text-[18px] max-[600px]:text-[16px] max-[530px]:text-[14px] max-[470px]:text-[12px]">Total Badges Earned</h1>
@@ -196,7 +260,7 @@ export default function Page() {
               </div>
 
             </main>
-            <h1 className="text-center text-gray-500  max-[470px]:text-[15px]">Steam&reg; - 27 December 2023</h1>
+            <h1 className="text-center text-gray-500 max-[470px]:text-[15px]">Steam&reg; - 27 December 2023</h1>
             <br></br>
           </section>
         </div>
