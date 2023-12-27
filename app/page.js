@@ -27,6 +27,12 @@ import rise from "../public/images/rise.jpg";
 import ron1 from "../public/images/ron1.jpg";
 import ron2 from "../public/images/ron2.jpg";
 import sandstorm from "../public/images/sandstorm.jpg";
+import years from "../public/images/years.png";
+import il2 from "../public/images/il2.png";
+import lord from "../public/images/lord.png";
+import demon from "../public/images/demon.png";
+import wow from "../public/images/wow.png";
+import criminal from "../public/images/criminal.png";
 
 {/* HOYOVERSE IMAGES */}
 import hoyoprofile from "../public/images/hoyoprofile.png";
@@ -243,7 +249,31 @@ export default function Page() {
               {/* BADGES */}
               <div className="w-full mx-5 max-[600px]:mx-3 max-[470px]:mx-1.5 mb-5 rounded-[5px] bg-gradient-to-r from-[#142245] to-[#0a193e]">
                 <h1 className="ml-2.5 mt-1.5 mb-2 text-white">Badge Collector</h1>
-                <div className="border-t-2 border-slate-900 bg-gradient-to-r from-[#071a42] to-[#090d24] p-3 rounded-b-[5px]">
+
+                <div className="bg-gradient-to-r from-[#071a42] to-[#090d24] p-3">
+                  <div className="grid grid-cols-6 justify-items-center overflow-hidden rounded-[5px] bg-[#050816] bg-opacity-60 p-2.5 text-white">
+                    <div className="w-[72px] h-[72px] max-[490px]:w-[48px] max-[490px]:h-[48px] max-[330px]:w-[38px] max-[330px]:h-[38px]">
+                      <Image src={years}></Image>
+                    </div>
+                    <div className="w-[72px] h-[72px] max-[490px]:w-[48px] max-[490px]:h-[48px] max-[330px]:w-[38px] max-[330px]:h-[38px]">
+                      <Image src={il2}></Image>
+                    </div>
+                    <div className="w-[72px] h-[72px] max-[490px]:w-[48px] max-[490px]:h-[48px] max-[330px]:w-[38px] max-[330px]:h-[38px]">
+                      <Image src={lord}></Image>
+                    </div>
+                    <div className="w-[72px] h-[72px] max-[490px]:w-[48px] max-[490px]:h-[48px] max-[330px]:w-[38px] max-[330px]:h-[38px]">
+                      <Image src={wow}></Image>
+                    </div>
+                    <div className="w-[72px] h-[72px] max-[490px]:w-[48px] max-[490px]:h-[48px] max-[330px]:w-[38px] max-[330px]:h-[38px]">
+                      <Image src={demon}></Image>
+                    </div>
+                    <div className="w-[72px] h-[72px] max-[490px]:w-[48px] max-[490px]:h-[48px] max-[330px]:w-[38px] max-[330px]:h-[38px]">
+                      <Image src={criminal}></Image>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="bg-gradient-to-r from-[#071a42] to-[#090d24] p-3 pt-0 rounded-b-[5px]">
                   <div className="grid grid-cols-3 max-[768px]:flex max-[768px]:flex-cols max-[768px]:justify-start overflow-hidden rounded-[5px] bg-[#050816] bg-opacity-60 p-2.5 text-white">
                     <div className="max-[768px]:mr-5 min-[600px]:min-w-[180px]">
                       <h1 className="text-3xl max-[470px]:text-2xl truncate">55</h1>
@@ -255,11 +285,11 @@ export default function Page() {
                         <h1 className="truncate text-gray-400 text-lg max-[768px]:text-[18px] max-[600px]:text-[16px] max-[530px]:text-[14px] max-[470px]:text-[12px] hover:text-white">Foil Badges Earned</h1></a>
                     </div>
                   </div>
-
                 </div>
+
               </div>
 
-              <div className="w-full mx-5 max-[600px]:mx-3 max-[470px]:mx-1.5 mb-5 rounded-[5px] bg-gradient-to-r from-[#142245] to-[#0a193e]">
+              <div className="w-full mx-5 max-[600px]:mx-3 max-[470px]:mx-1.5 mb-5 rounded-[5px] bg-gradient-to-r from-[#142245] to-[#0a193e]">                                            {/* https://steamtime.info/s/royal_avene */}
                 <h1 className="ml-2.5 mt-1.5 mb-2 text-center text-white text-[18px] max-[470px]:text-[16px] max-[390px]:text-[14px] max-[390px]:text-left">Total Playtime : <span className="font-bold">6,823h</span> / <span className="font-bold">758.11h</span> per year</h1>
               </div>
 
