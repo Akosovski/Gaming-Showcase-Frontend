@@ -70,9 +70,6 @@ export default function Page() {
     const [darkMode, setDarkMode] = useState(false);
     return (
       <div className={darkMode ? "dark" : ""}>
-        <Head>
-          <link rel="icon" href="#" />
-        </Head>
 
         {/* STEAM START */}
         <div className="bg-[url('../public/images/steambg.gif')] bg-cover">

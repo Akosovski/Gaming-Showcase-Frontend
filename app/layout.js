@@ -1,5 +1,6 @@
 // app/layout.js
 import React from 'react';
+import Head from 'next/head';
 
 export const metadata = {
   title: 'Akosovski - Gaming',
