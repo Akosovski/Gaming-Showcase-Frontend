@@ -38,8 +38,8 @@ import criminal from "../public/images/criminal.png";
 import hoyoprofile from "../public/images/hoyoprofile.png";
 import hoyolablogo from "../public/images/hoyolablogo.png";
 
+{/* HI3 IMAGES */}
 import hi3logo from "../public/images/honkai-impact-3rd.svg";
-import genshinlogo from "../public/images/genshin-impact.svg";
 import goldendiva from "../public/images/goldendiva.svg";
 import herrscherreason from "../public/images/herrscherreason.svg";
 import herrschervoid from "../public/images/herrschervoid.svg";
@@ -48,6 +48,23 @@ import misspinkelf from "../public/images/misspinkelf.svg";
 import shadowdash from "../public/images/shadowdash.svg";
 import starchasmnyx from "../public/images/starchasmnyx.svg";
 import swallowtailphantasm from "../public/images/swallowtailphantasm.svg";
+
+{/* GENSHIN IMAGES */}
+import genshinlogo from "../public/images/genshin-impact.svg";
+import ei from "../public/images/ei.svg";
+import ganyu from "../public/images/ganyu.svg";
+import hutao from "../public/images/hutao.svg";
+import kazuha from "../public/images/kazuha.svg";
+import mona from "../public/images/mona.svg";
+import keqing from "../public/images/keqing.svg";
+import nahida from "../public/images/nahida.svg";
+import qiqi from "../public/images/qiqi.svg";
+import wanderer from "../public/images/wanderer.svg";
+import yelan from "../public/images/yelan.svg";
+import zhongli from "../public/images/zhongli.svg";
+
+{/* STAR RAIL IMAGES */}
+import starraillogo from "../public/images/honkai-starrail.svg";
 
 export default function Page() {
     const [darkMode, setDarkMode] = useState(false);
@@ -507,6 +524,124 @@ export default function Page() {
               </div>
               <div>
                 <h1 className="text-white text-xl text-center mt-3">My Featured Characters</h1>
+              </div>
+            </div>
+
+            <div className="flex flex-rows flex-wrap p-3 gap-6 justify-center -mt-12 max-[845px]:mx-0 max-[1366px]:mx-24 min-[1366px]:mx-44">
+              
+              <div className="w-[330px] rounded-[12px] bg-gradient-to-r from-[#0e0d0b] to-[#0e0d0b]">
+                <div className="w-[330px] h-[400px] rounded-[12px] overflow-hidden">
+                  <Image src={zhongli}/>
+                </div>
+                <div className="text-white text-center text-lg">
+                  <h1 className="mb-1 -mt-2.5">Zhongli</h1>
+                </div>
+              </div>
+
+              <div className="w-[330px] rounded-[12px] bg-gradient-to-r from-[#0e0d0b] to-[#0e0d0b]">
+                <div className="w-[330px] h-[400px] rounded-[12px] overflow-hidden">
+                  <Image src={ei}/>
+                </div>
+                <div className="text-white text-center text-lg">
+                  <h1 className="mb-1 -mt-2.5">Raiden Shogun</h1>
+                </div>
+              </div>
+
+              <div className="w-[330px] rounded-[12px] bg-gradient-to-r from-[#0e0d0b] to-[#0e0d0b]">
+                <div className="w-[330px] h-[400px] rounded-[12px] overflow-hidden">
+                  <Image src={ganyu}/>
+                </div>
+                <div className="text-white text-center text-lg">
+                  <h1 className="mb-1 -mt-2.5">Ganyu</h1>
+                </div>
+              </div>
+
+              <div className="w-[330px] rounded-[12px] bg-gradient-to-r from-[#0e0d0b] to-[#0e0d0b]">
+                <div className="w-[330px] h-[400px] rounded-[12px] overflow-hidden">
+                  <Image src={nahida}/>
+                </div>
+                <div className="text-white text-center text-lg">
+                  <h1 className="mb-1 -mt-2.5">Nahida</h1>
+                </div>
+              </div>
+
+              <div className="w-[330px] rounded-[12px] bg-gradient-to-r from-[#0e0d0b] to-[#0e0d0b]">
+                <div className="w-[330px] h-[400px] rounded-[12px] overflow-hidden">
+                  <Image src={hutao}/>
+                </div>
+                <div className="text-white text-center text-lg">
+                  <h1 className="mb-1 -mt-2.5">Hu Tao</h1>
+                </div>
+              </div>
+
+              <div className="w-[330px] rounded-[12px] bg-gradient-to-r from-[#0e0d0b] to-[#0e0d0b]">
+                <div className="w-[330px] h-[400px] rounded-[12px] overflow-hidden">
+                  <Image src={kazuha}/>
+                </div>
+                <div className="text-white text-center text-lg">
+                  <h1 className="mb-1 -mt-2.5">Kaedehara Kazuha</h1>
+                </div>
+              </div>
+
+              <div className="w-[330px] rounded-[12px] bg-gradient-to-r from-[#0e0d0b] to-[#0e0d0b]">
+                <div className="w-[330px] h-[400px] rounded-[12px] overflow-hidden">
+                  <Image src={keqing}/>
+                </div>
+                <div className="text-white text-center text-lg">
+                  <h1 className="mb-1 -mt-2.5">Keqing</h1>
+                </div>
+              </div>
+
+              <div className="w-[330px] rounded-[12px] bg-gradient-to-r from-[#0e0d0b] to-[#0e0d0b]">
+                <div className="w-[330px] h-[400px] rounded-[12px] overflow-hidden">
+                  <Image src={yelan}/>
+                </div>
+                <div className="text-white text-center text-lg">
+                  <h1 className="mb-1 -mt-2.5">Yelan</h1>
+                </div>
+              </div>
+
+              <div className="w-[330px] rounded-[12px] bg-gradient-to-r from-[#0e0d0b] to-[#0e0d0b]">
+                <div className="w-[330px] h-[400px] rounded-[12px] overflow-hidden">
+                  <Image src={wanderer}/>
+                </div>
+                <div className="text-white text-center text-lg">
+                  <h1 className="mb-1 -mt-2.5">Wanderer</h1>
+                </div>
+              </div>
+
+              <div className="w-[330px] rounded-[12px] bg-gradient-to-r from-[#0e0d0b] to-[#0e0d0b]">
+                <div className="w-[330px] h-[400px] rounded-[12px] overflow-hidden">
+                  <Image src={qiqi}/>
+                </div>
+                <div className="text-white text-center text-lg">
+                  <h1 className="mb-1 -mt-2.5">Qiqi</h1>
+                </div>
+              </div>
+
+              <div className="w-[330px] rounded-[12px] bg-gradient-to-r from-[#0e0d0b] to-[#0e0d0b]">
+                <div className="w-[330px] h-[400px] rounded-[12px] overflow-hidden">
+                  <Image src={mona}/>
+                </div>
+                <div className="text-white text-center text-lg">
+                  <h1 className="mb-1 -mt-2.5">Mona</h1>
+                </div>
+              </div>
+
+            </div>
+
+            <h1 className="text-center text-gray-500 mt-5 max-[470px]:text-[15px]">Genshin Impact - 28 December 2023</h1>
+            <br></br>
+
+            <hr className="mx-48 max-[470px]:mx-16"></hr>
+
+            {/* HONKAI: STAR RAIL */}
+            <div className="grid grid-rows-2 justify-center mt-8">
+              <div className="drop-shadow-lg w-[280px] h-[133px] overflow-hidden ">
+                <Image src={starraillogo}></Image>
+              </div>
+              <div>
+                <h1 className="text-white text-xl text-center mt-3.5">My Featured Characters</h1>
               </div>
             </div>
 
