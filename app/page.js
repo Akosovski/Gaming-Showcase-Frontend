@@ -529,102 +529,102 @@ export default function Page() {
 
             <div className="flex flex-rows flex-wrap p-3 gap-6 justify-center -mt-12 max-[845px]:mx-0 max-[1366px]:mx-24 min-[1366px]:mx-44">
               
-              <div className="w-[330px] rounded-[12px] bg-gradient-to-r from-[#0e0d0b] to-[#0e0d0b]">
-                <div className="w-[330px] h-[400px] rounded-[12px] overflow-hidden">
+              <div className="w-[330px] rounded-[12px] max-[340px]:w-[300px] bg-gradient-to-r from-[#0e0d0b] to-[#0e0d0b]">
+                <div className="w-[330px] h-[400px] max-[340px]:w-[300px] max-[340px]:h-[370px] rounded-[12px] overflow-hidden">
                   <Image src={zhongli}/>
                 </div>
                 <div className="text-white text-center text-lg">
-                  <h1 className="mb-1 -mt-2.5">Zhongli</h1>
+                  <h1 className="mb-1 -mt-2.5 max-[340px]:-mt-4">Zhongli</h1>
                 </div>
               </div>
 
-              <div className="w-[330px] rounded-[12px] bg-gradient-to-r from-[#0e0d0b] to-[#0e0d0b]">
-                <div className="w-[330px] h-[400px] rounded-[12px] overflow-hidden">
+              <div className="w-[330px] rounded-[12px] max-[340px]:w-[300px] bg-gradient-to-r from-[#0e0d0b] to-[#0e0d0b]">
+                <div className="w-[330px] h-[400px] max-[340px]:w-[300px] max-[340px]:h-[370px] rounded-[12px] overflow-hidden">
                   <Image src={ei}/>
                 </div>
                 <div className="text-white text-center text-lg">
-                  <h1 className="mb-1 -mt-2.5">Raiden Shogun</h1>
+                  <h1 className="mb-1 -mt-2.5 max-[340px]:-mt-4">Raiden Shogun</h1>
                 </div>
               </div>
 
-              <div className="w-[330px] rounded-[12px] bg-gradient-to-r from-[#0e0d0b] to-[#0e0d0b]">
-                <div className="w-[330px] h-[400px] rounded-[12px] overflow-hidden">
+              <div className="w-[330px] rounded-[12px] max-[340px]:w-[300px] bg-gradient-to-r from-[#0e0d0b] to-[#0e0d0b]">
+                <div className="w-[330px] h-[400px] max-[340px]:w-[300px] max-[340px]:h-[370px] rounded-[12px] overflow-hidden">
                   <Image src={ganyu}/>
                 </div>
                 <div className="text-white text-center text-lg">
-                  <h1 className="mb-1 -mt-2.5">Ganyu</h1>
+                  <h1 className="mb-1 -mt-2.5 max-[340px]:-mt-4">Ganyu</h1>
                 </div>
               </div>
 
-              <div className="w-[330px] rounded-[12px] bg-gradient-to-r from-[#0e0d0b] to-[#0e0d0b]">
-                <div className="w-[330px] h-[400px] rounded-[12px] overflow-hidden">
+              <div className="w-[330px] rounded-[12px] max-[340px]:w-[300px] bg-gradient-to-r from-[#0e0d0b] to-[#0e0d0b]">
+                <div className="w-[330px] h-[400px] max-[340px]:w-[300px] max-[340px]:h-[370px] rounded-[12px] overflow-hidden">
                   <Image src={nahida}/>
                 </div>
                 <div className="text-white text-center text-lg">
-                  <h1 className="mb-1 -mt-2.5">Nahida</h1>
+                  <h1 className="mb-1 -mt-2.5 max-[340px]:-mt-4">Nahida</h1>
                 </div>
               </div>
 
-              <div className="w-[330px] rounded-[12px] bg-gradient-to-r from-[#0e0d0b] to-[#0e0d0b]">
-                <div className="w-[330px] h-[400px] rounded-[12px] overflow-hidden">
+              <div className="w-[330px] rounded-[12px] max-[340px]:w-[300px] bg-gradient-to-r from-[#0e0d0b] to-[#0e0d0b]">
+                <div className="w-[330px] h-[400px] max-[340px]:w-[300px] max-[340px]:h-[370px] rounded-[12px] overflow-hidden">
                   <Image src={hutao}/>
                 </div>
                 <div className="text-white text-center text-lg">
-                  <h1 className="mb-1 -mt-2.5">Hu Tao</h1>
+                  <h1 className="mb-1 -mt-2.5 max-[340px]:-mt-4">Hu Tao</h1>
                 </div>
               </div>
 
-              <div className="w-[330px] rounded-[12px] bg-gradient-to-r from-[#0e0d0b] to-[#0e0d0b]">
-                <div className="w-[330px] h-[400px] rounded-[12px] overflow-hidden">
+              <div className="w-[330px] rounded-[12px] max-[340px]:w-[300px] bg-gradient-to-r from-[#0e0d0b] to-[#0e0d0b]">
+                <div className="w-[330px] h-[400px] max-[340px]:w-[300px] max-[340px]:h-[370px] rounded-[12px] overflow-hidden">
                   <Image src={kazuha}/>
                 </div>
                 <div className="text-white text-center text-lg">
-                  <h1 className="mb-1 -mt-2.5">Kaedehara Kazuha</h1>
+                  <h1 className="mb-1 -mt-2.5 max-[340px]:-mt-4">Kaedehara Kazuha</h1>
                 </div>
               </div>
 
-              <div className="w-[330px] rounded-[12px] bg-gradient-to-r from-[#0e0d0b] to-[#0e0d0b]">
-                <div className="w-[330px] h-[400px] rounded-[12px] overflow-hidden">
+              <div className="w-[330px] rounded-[12px] max-[340px]:w-[300px] bg-gradient-to-r from-[#0e0d0b] to-[#0e0d0b]">
+                <div className="w-[330px] h-[400px] max-[340px]:w-[300px] max-[340px]:h-[370px] rounded-[12px] overflow-hidden">
                   <Image src={keqing}/>
                 </div>
                 <div className="text-white text-center text-lg">
-                  <h1 className="mb-1 -mt-2.5">Keqing</h1>
+                  <h1 className="mb-1 -mt-2.5 max-[340px]:-mt-4">Keqing</h1>
                 </div>
               </div>
 
-              <div className="w-[330px] rounded-[12px] bg-gradient-to-r from-[#0e0d0b] to-[#0e0d0b]">
-                <div className="w-[330px] h-[400px] rounded-[12px] overflow-hidden">
+              <div className="w-[330px] rounded-[12px] max-[340px]:w-[300px] bg-gradient-to-r from-[#0e0d0b] to-[#0e0d0b]">
+                <div className="w-[330px] h-[400px] max-[340px]:w-[300px] max-[340px]:h-[370px] rounded-[12px] overflow-hidden">
                   <Image src={yelan}/>
                 </div>
                 <div className="text-white text-center text-lg">
-                  <h1 className="mb-1 -mt-2.5">Yelan</h1>
+                  <h1 className="mb-1 -mt-2.5 max-[340px]:-mt-4">Yelan</h1>
                 </div>
               </div>
 
-              <div className="w-[330px] rounded-[12px] bg-gradient-to-r from-[#0e0d0b] to-[#0e0d0b]">
-                <div className="w-[330px] h-[400px] rounded-[12px] overflow-hidden">
+              <div className="w-[330px] rounded-[12px] max-[340px]:w-[300px] bg-gradient-to-r from-[#0e0d0b] to-[#0e0d0b]">
+                <div className="w-[330px] h-[400px] max-[340px]:w-[300px] max-[340px]:h-[370px] rounded-[12px] overflow-hidden">
                   <Image src={wanderer}/>
                 </div>
                 <div className="text-white text-center text-lg">
-                  <h1 className="mb-1 -mt-2.5">Wanderer</h1>
+                  <h1 className="mb-1 -mt-2.5 max-[340px]:-mt-4">Wanderer</h1>
                 </div>
               </div>
 
-              <div className="w-[330px] rounded-[12px] bg-gradient-to-r from-[#0e0d0b] to-[#0e0d0b]">
-                <div className="w-[330px] h-[400px] rounded-[12px] overflow-hidden">
+              <div className="w-[330px] rounded-[12px] max-[340px]:w-[300px] bg-gradient-to-r from-[#0e0d0b] to-[#0e0d0b]">
+                <div className="w-[330px] h-[400px] max-[340px]:w-[300px] max-[340px]:h-[370px] rounded-[12px] overflow-hidden">
                   <Image src={qiqi}/>
                 </div>
                 <div className="text-white text-center text-lg">
-                  <h1 className="mb-1 -mt-2.5">Qiqi</h1>
+                  <h1 className="mb-1 -mt-2.5 max-[340px]:-mt-4">Qiqi</h1>
                 </div>
               </div>
 
-              <div className="w-[330px] rounded-[12px] bg-gradient-to-r from-[#0e0d0b] to-[#0e0d0b]">
-                <div className="w-[330px] h-[400px] rounded-[12px] overflow-hidden">
+              <div className="w-[330px] rounded-[12px] max-[340px]:w-[300px] bg-gradient-to-r from-[#0e0d0b] to-[#0e0d0b]">
+                <div className="w-[330px] h-[400px] max-[340px]:w-[300px] max-[340px]:h-[370px] rounded-[12px] overflow-hidden">
                   <Image src={mona}/>
                 </div>
                 <div className="text-white text-center text-lg">
-                  <h1 className="mb-1 -mt-2.5">Mona</h1>
+                  <h1 className="mb-1 -mt-2.5 max-[340px]:-mt-4">Mona</h1>
                 </div>
               </div>
 
