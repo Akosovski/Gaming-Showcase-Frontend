@@ -13,3 +13,10 @@ A Website which showcases my gameplay, achievements, progress and gaming experie
   <a href="https://reactjs.org/" target="_blank"> <img src="https://www.svgrepo.com/show/354259/react.svg" alt="react" width="40" height="40"/> </a>
    <a href="https://nextjs.org/" target="_blank"> <img src="https://www.datocms-assets.com/75941/1657707878-nextjs_logo.png" alt="next" width="40" height="40"/> </a>
 </p>
+
+---
+
+## Upcoming Features ✨
+
+- Use Steam API to sync the stats
+- Also find a way to sync the stats from battle chronicles
