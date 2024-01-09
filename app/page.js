@@ -114,7 +114,7 @@ export default function Page() {
                     </a>
                     <div>
                       <div className="border border-2 rounded-full border-[#4e8ddb] pt-0.5 pb-0.5 text-center w-9">
-                        <h1 className="text-[18px]">54</h1>
+                        <h1 className="text-[18px]">55</h1>
                       </div>
                     </div>
                   </div>
