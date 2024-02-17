@@ -33,6 +33,10 @@ import lord from "../public/images/lord.png";
 import demon from "../public/images/demon.png";
 import wow from "../public/images/wow.png";
 import criminal from "../public/images/criminal.png";
+import mafia from "../public/images/mafia.jpg";
+import hitman from "../public/images/hitman.jpg";
+import insurgency from "../public/images/insurgency.jpg";
+import jwe1 from "../public/images/jwe1.jpg";
 
 {/* HOYOVERSE IMAGES */}
 import hoyoprofile from "../public/images/hoyoprofile.png";
@@ -131,7 +135,7 @@ export default function Page() {
                         </div>
                         <div className="ml-2">
                           <h1 className="text-[15px] -mb-1 max-[470px]:text-[14px]">Power Player</h1>
-                          <h1 className="text-sm max-[470px]:text-[13px]">336 XP</h1>
+                          <h1 className="text-sm max-[470px]:text-[13px]">339 XP</h1>
                         </div>
                     </div>
                   </a>
@@ -154,17 +158,17 @@ export default function Page() {
                         <h1 className="truncate text-gray-400 text-lg max-[768px]:text-[18px] max-[600px]:text-[16px] max-[470px]:text-[12px] hover:text-white">Games Owned</h1></a>
                     </div>
                     <div className="ml-3 max-[530px]:ml-4 max-[470px]:max-w-[68px] max-[330px]:ml-1.5">
-                      <h1 className="text-3xl max-[470px]:text-2xl">222</h1>
+                      <h1 className="text-3xl max-[470px]:text-2xl">223</h1>
                       <a href="https://steamcommunity.com/id/royal_avene/games/" target="_blank" rel="noreferrer">
                         <h1 className="truncate text-gray-400 text-lg max-[768px]:text-[18px] max-[600px]:text-[16px] max-[470px]:text-[12px] hover:text-white">DLC Owned</h1></a>
                     </div>
                     <div className="ml-3 max-[470px]:max-w-[48px] max-[470px]:ml-3 max-[330px]:ml-1.5">
-                      <h1 className="text-3xl max-[470px]:text-2xl">45</h1>
+                      <h1 className="text-3xl max-[470px]:text-2xl">46</h1>
                       <a href="https://steamcommunity.com/id/royal_avene/recommended/" target="_blank" rel="noreferrer">
                         <h1 className="truncate text-gray-400 text-lg max-[768px]:text-[18px] max-[600px]:text-[16px] max-[470px]:text-[12px] hover:text-white">Reviews</h1></a>
                     </div>
                     <div className="ml-3 max-[470px]:max-w-[60px] max-[470px]:ml-3 max-[330px]:ml-1.5">
-                      <h1 className="text-3xl max-[470px]:text-2xl">7</h1>
+                      <h1 className="text-3xl max-[470px]:text-2xl">11</h1>
                       <a href="https://store.steampowered.com/wishlist/id/royal_avene/" target="_blank" rel="noreferrer">
                         <h1 className="truncate text-gray-400 text-lg max-[768px]:text-[18px] max-[600px]:text-[16px] max-[470px]:text-[12px] hover:text-white">Wishlisted</h1></a>
                     </div>
@@ -196,14 +200,6 @@ export default function Page() {
 
                 <div className="bg-gradient-to-r from-[#071a42] to-[#090d24] p-3">
                   <div className="flex flex-wrap gap-2 min-[528px]:grid grid-cols-2 justify-items-center overflow-hidden rounded-[5px] bg-[#050816] bg-opacity-60 p-2.5 text-white">
-                    
-                    <div className="">
-                      <Image src={readyornot}></Image>
-                      <div className="flex justify-between p-0.5 pl-2 pb-0 bg-[#206bf6]">
-                        <h1 className="truncate">15 / 15 Achievements</h1>
-                        <img className="w-12 h-12 -mt-5 -mr-1" src="https://community.cloudflare.steamstatic.com/public/images/profile/achievementIcon.svg"></img>
-                      </div>
-                    </div>
 
                     <div className="">
                       <Image src={eldenring}></Image>
@@ -212,17 +208,57 @@ export default function Page() {
                         <img className="w-12 h-12 -mt-5 -mr-1" src="https://community.cloudflare.steamstatic.com/public/images/profile/achievementIcon.svg"></img>
                       </div>
                     </div>
+
+                    <div className="">
+                      <Image src={mafia}></Image>
+                      <div className="flex justify-between p-0.5 pl-2 pb-0 bg-[#206bf6]">
+                        <h1 className="truncate">43 / 43 Achievements</h1>
+                        <img className="w-12 h-12 -mt-5 -mr-1" src="https://community.cloudflare.steamstatic.com/public/images/profile/achievementIcon.svg"></img>
+                      </div>
+                    </div>
                     
+                    <div className="">
+                      <Image src={insurgency}></Image>
+                      <div className="flex justify-between p-0.5 pl-2 pb-0 bg-[#206bf6]">
+                        <h1 className="truncate">35 / 35 Achievements</h1>
+                        <img className="w-12 h-12 -mt-5 -mr-1" src="https://community.cloudflare.steamstatic.com/public/images/profile/achievementIcon.svg"></img>
+                      </div>
+                    </div>
+
+                    <div className="">
+                      <Image src={jwe1}></Image>
+                      <div className="flex justify-between p-0.5 pl-2 pb-0 bg-[#206bf6]">
+                        <h1 className="truncate">73 / 73 Achievements</h1>
+                        <img className="w-12 h-12 -mt-5 -mr-1" src="https://community.cloudflare.steamstatic.com/public/images/profile/achievementIcon.svg"></img>
+                      </div>
+                    </div>
+
+                    <div className="">
+                      <Image src={hitman}></Image>
+                      <div className="flex justify-between p-0.5 pl-2 pb-0 bg-[#206bf6]">
+                        <h1 className="truncate">47 / 47 Achievements</h1>
+                        <img className="w-12 h-12 -mt-5 -mr-1" src="https://community.cloudflare.steamstatic.com/public/images/profile/achievementIcon.svg"></img>
+                      </div>
+                    </div>
+
+                    <div className="">
+                      <Image src={readyornot}></Image>
+                      <div className="flex justify-between p-0.5 pl-2 pb-0 bg-[#206bf6]">
+                        <h1 className="truncate">15 / 15 Achievements</h1>
+                        <img className="w-12 h-12 -mt-5 -mr-1" src="https://community.cloudflare.steamstatic.com/public/images/profile/achievementIcon.svg"></img>
+                      </div>
+                    </div>
+
                   </div>
 
                   <div className="mt-3 grid grid-cols-2 max-[675px]:flex max-[675px]:flex-cols gap-4 overflow-hidden rounded-[5px] bg-[#050816] bg-opacity-60 p-2.5 text-white">
                     <div className="max-[768px]:mr-3 max-[470px]:mr-1.5 min-[600px]:min-w-[125px] min-[470px]:min-w-[97px]">
-                      <h1 className="text-3xl max-[470px]:text-2xl">3</h1>
+                      <h1 className="text-3xl max-[470px]:text-2xl">10</h1>
                       <a href="https://steamcommunity.com/id/royal_avene/games/?tab=perfect" target="_blank" rel="noreferrer">
                         <h1 className="truncate text-gray-400 text-lg max-[768px]:text-[18px] max-[600px]:text-[16px] max-[530px]:text-[14px] max-[470px]:text-[12px] hover:text-white">Perfect Games</h1></a>
                     </div>
                     <div className="max-[768px]:mr-3 max-[470px]:mr-1.5 min-[600px]:min-w-[120px]">
-                      <h1 className="text-3xl max-[470px]:text-2xl truncate">131</h1>
+                      <h1 className="text-3xl max-[470px]:text-2xl truncate">389</h1>
                       <h1 className="truncate text-gray-400 text-lg max-[768px]:text-[18px] max-[600px]:text-[16px] max-[530px]:text-[14px] max-[470px]:text-[12px]">Achievements in Perfect Games</h1>
                     </div>
                   </div>
@@ -286,16 +322,16 @@ export default function Page() {
                 <div className="bg-gradient-to-r from-[#071a42] to-[#090d24] p-3 rounded-b-[5px]">
                   <div className="grid grid-cols-4 max-[470px]:flex max-[470px]:flex-cols max-[470px]:justify-between overflow-hidden rounded-[5px] bg-[#050816] bg-opacity-60 p-2.5 text-white">
                     <div className="max-[768px]:mr-3 max-[470px]:mr-1.5 min-[600px]:min-w-[120px]">
-                      <h1 className="text-3xl max-[470px]:text-2xl truncate">1,693</h1>
+                      <h1 className="text-3xl max-[470px]:text-2xl truncate">1,839</h1>
                       <h1 className="truncate text-gray-400 text-lg max-[768px]:text-[18px] max-[600px]:text-[16px] max-[530px]:text-[14px] max-[470px]:text-[12px]">Achievements</h1>
                     </div>
                     <div className="max-[768px]:mr-3 max-[470px]:mr-1.5 min-[600px]:min-w-[125px] min-[470px]:min-w-[97px]">
-                      <h1 className="text-3xl max-[470px]:text-2xl">4</h1>
+                      <h1 className="text-3xl max-[470px]:text-2xl">10</h1>
                       <a href="https://steamcommunity.com/id/royal_avene/games/?tab=perfect" target="_blank" rel="noreferrer">
                         <h1 className="truncate text-gray-400 text-lg max-[768px]:text-[18px] max-[600px]:text-[16px] max-[530px]:text-[14px] max-[470px]:text-[12px] hover:text-white">Perfect Games</h1></a>
                     </div>
                     <div className="min-[600px]:min-w-[240px] min-[470px]:min-w-[188px] max-[385px]:max-w-[75px]">
-                      <h1 className="text-3xl max-[470px]:text-2xl">39%</h1>
+                      <h1 className="text-3xl max-[470px]:text-2xl">44%</h1>
                       <a href="https://steamcommunity.com/id/royal_avene/games/?tab=all&sort=achievements" target="_blank" rel="noreferrer">
                         <h1 className="truncate text-gray-400 text-lg max-[768px]:text-[18px] max-[600px]:text-[16px] max-[530px]:text-[14px] max-[470px]:text-[12px] hover:text-white">Avg. Game Completion Rate</h1></a>
                     </div>
@@ -334,7 +370,7 @@ export default function Page() {
                 <div className="bg-gradient-to-r from-[#071a42] to-[#090d24] p-3 pt-0 rounded-b-[5px]">
                   <div className="grid grid-cols-3 max-[768px]:flex max-[768px]:flex-cols max-[768px]:justify-start overflow-hidden rounded-[5px] bg-[#050816] bg-opacity-60 p-2.5 text-white">
                     <div className="max-[768px]:mr-5 min-[600px]:min-w-[180px]">
-                      <h1 className="text-3xl max-[470px]:text-2xl truncate">57</h1>
+                      <h1 className="text-3xl max-[470px]:text-2xl truncate">58</h1>
                       <h1 className="truncate text-gray-400 text-lg max-[768px]:text-[18px] max-[600px]:text-[16px] max-[530px]:text-[14px] max-[470px]:text-[12px]">Total Badges Earned</h1>
                     </div>
                     <div className="max-[768px]:mr-5 min-[600px]:min-w-[165px] min-[470px]:min-w-[97px]">
@@ -348,11 +384,11 @@ export default function Page() {
               </div>
 
               <div className="w-full mx-5 max-[600px]:mx-3 max-[470px]:mx-1.5 mb-5 rounded-[5px] bg-gradient-to-r from-[#142245] to-[#0a193e]">                                            {/* https://steamtime.info/s/76561198130945059 */}
-                <h1 className="ml-2.5 mt-1.5 mb-2 text-center text-white text-[18px] max-[470px]:text-[16px] max-[390px]:text-[14px] max-[390px]:text-left">Total Playtime : <span className="font-bold">6,972h</span> / <span className="font-bold">774.67h</span> per year</h1>
+                <h1 className="ml-2.5 mt-1.5 mb-2 text-center text-white text-[18px] max-[470px]:text-[16px] max-[390px]:text-[14px] max-[390px]:text-left">Total Playtime : <span className="font-bold">7,382h</span> / <span className="font-bold">820.22h</span> per year</h1>
               </div>
 
             </main>
-            <h1 className="text-center text-gray-500 max-[470px]:text-[15px]">Steam&reg; - 17 January 2024</h1>
+            <h1 className="text-center text-gray-500 max-[470px]:text-[15px]">Steam&reg; - 17 February 2024</h1>
             <br></br>
           </section>
         </div>
@@ -682,7 +718,7 @@ export default function Page() {
                 <Image src={starraillogo}></Image>
               </div>
               <div>
-                <h1 className="text-white text-xl text-center mt-3.5">My Featured Characters</h1>
+                <h1 className="text-white text-xl text-center mt-3.5">WORK IN-PROGRESS</h1>
               </div>
             </div>
 
