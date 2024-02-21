@@ -11,19 +11,22 @@ import powerplayer from "../public/images/powerplayer.png";
 import steamprofile from "../public/images/defaultprofile.jpg";
 import readyornot from "../public/images/readyornot.jpg";
 import eldenring from "../public/images/eldenring.jpg";
-import bannerlord from "../public/images/bannerlord.jpg";
 import xplane12 from "../public/images/xplane12.jpg";
 import eldenring1 from "../public/images/eldenring1.jpg";
 import eldenring2 from "../public/images/eldenring2.jpg";
-import hatred1 from "../public/images/hatred1.jpg";
+import hitmanpro from "../public/images/hitmanpro.jpg";
 import hatred2 from "../public/images/hatred2.jpg";
 import hatred3 from "../public/images/hatred3.jpg";
-import ac7 from "../public/images/ac7.jpg";
-import arma3 from "../public/images/ac7.jpg";
+import ac7 from "../public/images/ac7bop.jpg";
+import arma3 from "../public/images/arma3.jpg";
+import arma3apfsds from "../public/images/arma3apfsds.jpg";
+import mhrsunbreak from "../public/images/mhrsunbreak.jpg";
+import mhwiceborne from "../public/images/mhwiceborne.jpg";
 import mhw from "../public/images/mhw.jpg";
-import payday2 from "../public/images/payday2.jpg";
+import bannerlord from "../public/images/bannerlord.jpg";
 import phantoms from "../public/images/phantoms.jpg";
 import rise from "../public/images/rise.jpg";
+import rise2 from "../public/images/rise2.jpg";
 import ron1 from "../public/images/ron1.jpg";
 import ron2 from "../public/images/ron2.jpg";
 import sandstorm from "../public/images/sandstorm.jpg";
@@ -35,7 +38,6 @@ import wow from "../public/images/wow.png";
 import criminal from "../public/images/criminal.png";
 import mafia from "../public/images/mafia.jpg";
 import hitman from "../public/images/hitman.jpg";
-import insurgency from "../public/images/insurgency.jpg";
 import jwe1 from "../public/images/jwe1.jpg";
 
 {/* HOYOVERSE IMAGES */}
@@ -178,16 +180,16 @@ export default function Page() {
                   <h1 className="ml-0.5 mt-2 mb-2 text-gray-400">Featured Games</h1>
                   <div className="flex flex-row-4 gap-1.5">
                     <div className="grow">
-                      <a href="https://store.steampowered.com/app/1245620/ELDEN_RING/" target="_blank" rel="noreferrer"><Image src={eldenring} className="w-full"></Image></a>
-                    </div>
-                    <div className="grow">
-                      <a href="https://store.steampowered.com/app/1144200/Ready_or_Not/" target="_blank" rel="noreferrer"><Image src={readyornot} className="w-full"></Image></a>
-                    </div>
-                    <div className="grow">
-                      <a href="https://store.steampowered.com/app/261550/Mount__Blade_II_Bannerlord/" target="_blank" rel="noreferrer"><Image src={bannerlord} className="w-full"></Image></a>
-                    </div>
-                    <div className="grow">
                       <a href="https://store.steampowered.com/app/2014780/XPlane_12/" target="_blank" rel="noreferrer"><Image src={xplane12} className="w-full"></Image></a>
+                    </div>
+                    <div className="grow">
+                      <a href="https://store.steampowered.com/app/107410/Arma_3/" target="_blank" rel="noreferrer"><Image src={arma3} className="w-full"></Image></a>
+                    </div>
+                    <div className="grow">
+                      <a href="https://store.steampowered.com/app/1880360/Monster_Hunter_Rise_Sunbreak/" target="_blank" rel="noreferrer"><Image src={mhrsunbreak} className="w-full"></Image></a>
+                    </div>
+                    <div className="grow">
+                      <a href="https://store.steampowered.com/app/1118010/Monster_Hunter_World_Iceborne/" target="_blank" rel="noreferrer"><Image src={mhwiceborne} className="w-full"></Image></a>
                     </div>
                   </div>
 
@@ -210,17 +212,17 @@ export default function Page() {
                     </div>
 
                     <div className="">
-                      <Image src={mafia}></Image>
+                      <Image src={mhw}></Image>
                       <div className="flex justify-between p-0.5 pl-2 pb-0 bg-[#206bf6]">
-                        <h1 className="truncate">43 / 43 Achievements</h1>
+                        <h1 className="truncate">100 / 100 Achievements</h1>
                         <img className="w-12 h-12 -mt-5 -mr-1" src="https://community.cloudflare.steamstatic.com/public/images/profile/achievementIcon.svg"></img>
                       </div>
                     </div>
                     
                     <div className="">
-                      <Image src={insurgency}></Image>
+                      <Image src={hitman}></Image>
                       <div className="flex justify-between p-0.5 pl-2 pb-0 bg-[#206bf6]">
-                        <h1 className="truncate">35 / 35 Achievements</h1>
+                        <h1 className="truncate">47 / 47 Achievements</h1>
                         <img className="w-12 h-12 -mt-5 -mr-1" src="https://community.cloudflare.steamstatic.com/public/images/profile/achievementIcon.svg"></img>
                       </div>
                     </div>
@@ -234,17 +236,17 @@ export default function Page() {
                     </div>
 
                     <div className="">
-                      <Image src={hitman}></Image>
+                      <Image src={readyornot}></Image>
                       <div className="flex justify-between p-0.5 pl-2 pb-0 bg-[#206bf6]">
-                        <h1 className="truncate">47 / 47 Achievements</h1>
+                        <h1 className="truncate">15 / 15 Achievements</h1>
                         <img className="w-12 h-12 -mt-5 -mr-1" src="https://community.cloudflare.steamstatic.com/public/images/profile/achievementIcon.svg"></img>
                       </div>
                     </div>
 
                     <div className="">
-                      <Image src={readyornot}></Image>
+                      <Image src={mafia}></Image>
                       <div className="flex justify-between p-0.5 pl-2 pb-0 bg-[#206bf6]">
-                        <h1 className="truncate">15 / 15 Achievements</h1>
+                        <h1 className="truncate">43 / 43 Achievements</h1>
                         <img className="w-12 h-12 -mt-5 -mr-1" src="https://community.cloudflare.steamstatic.com/public/images/profile/achievementIcon.svg"></img>
                       </div>
                     </div>
@@ -253,12 +255,12 @@ export default function Page() {
 
                   <div className="mt-3 grid grid-cols-2 max-[675px]:flex max-[675px]:flex-cols gap-4 overflow-hidden rounded-[5px] bg-[#050816] bg-opacity-60 p-2.5 text-white">
                     <div className="max-[768px]:mr-3 max-[470px]:mr-1.5 min-[600px]:min-w-[125px] min-[470px]:min-w-[97px]">
-                      <h1 className="text-3xl max-[470px]:text-2xl">10</h1>
+                      <h1 className="text-3xl max-[470px]:text-2xl">11</h1>
                       <a href="https://steamcommunity.com/id/royal_avene/games/?tab=perfect" target="_blank" rel="noreferrer">
                         <h1 className="truncate text-gray-400 text-lg max-[768px]:text-[18px] max-[600px]:text-[16px] max-[530px]:text-[14px] max-[470px]:text-[12px] hover:text-white">Perfect Games</h1></a>
                     </div>
                     <div className="max-[768px]:mr-3 max-[470px]:mr-1.5 min-[600px]:min-w-[120px]">
-                      <h1 className="text-3xl max-[470px]:text-2xl truncate">389</h1>
+                      <h1 className="text-3xl max-[470px]:text-2xl truncate">489</h1>
                       <h1 className="truncate text-gray-400 text-lg max-[768px]:text-[18px] max-[600px]:text-[16px] max-[530px]:text-[14px] max-[470px]:text-[12px]">Achievements in Perfect Games</h1>
                     </div>
                   </div>
@@ -276,7 +278,7 @@ export default function Page() {
                       <Image src={eldenring1}></Image>
                     </div>
                     <div className="w-[66px] h-[66px] max-[570px]:w-[48px] max-[570px]:h-[48px] max-[570px]:w-[36px] max-[570px]:h-[36px] max-[370px]:w-[30px] max-[370px]:h-[30px]">
-                      <Image src={hatred1}></Image>
+                      <Image src={arma3apfsds}></Image>
                     </div>
                     <div className="w-[66px] h-[66px] max-[570px]:w-[48px] max-[570px]:h-[48px] max-[570px]:w-[36px] max-[570px]:h-[36px] max-[370px]:w-[30px] max-[370px]:h-[30px]">
                       <Image src={ron1}></Image>
@@ -299,22 +301,22 @@ export default function Page() {
                       <Image src={rise}></Image>
                     </div>
                     <div className="w-[66px] h-[66px] max-[570px]:w-[48px] max-[570px]:h-[48px] max-[570px]:w-[36px] max-[570px]:h-[36px] max-[370px]:w-[30px] max-[370px]:h-[30px]">
-                      <Image src={ac7}></Image>
+                      <Image src={phantoms}></Image>
                     </div>
                     <div className="w-[66px] h-[66px] max-[570px]:w-[48px] max-[570px]:h-[48px] max-[570px]:w-[36px] max-[570px]:h-[36px] max-[370px]:w-[30px] max-[370px]:h-[30px]">
-                      <Image src={mhw}></Image>
+                      <Image src={ac7}></Image>
                     </div>
                     <div className="w-[66px] h-[66px] max-[570px]:w-[48px] max-[570px]:h-[48px] max-[570px]:w-[36px] max-[570px]:h-[36px] max-[370px]:w-[30px] max-[370px]:h-[30px]">
                       <Image src={sandstorm}></Image>
                     </div>
                     <div className="w-[66px] h-[66px] max-[570px]:w-[48px] max-[570px]:h-[48px] max-[570px]:w-[36px] max-[570px]:h-[36px] max-[370px]:w-[30px] max-[370px]:h-[30px]">
-                      <Image src={phantoms}></Image>
+                      <Image src={hitmanpro}></Image>
                     </div>
                     <div className="w-[66px] h-[66px] max-[570px]:w-[48px] max-[570px]:h-[48px] max-[570px]:w-[36px] max-[570px]:h-[36px] max-[370px]:w-[30px] max-[370px]:h-[30px]">
-                      <Image src={payday2}></Image>
+                      <Image src={bannerlord}></Image>
                     </div> 
                     <div className="w-[66px] h-[66px] max-[570px]:w-[48px] max-[570px]:h-[48px] max-[570px]:w-[36px] max-[570px]:h-[36px] max-[370px]:w-[30px] max-[370px]:h-[30px]">
-                      <Image src={arma3}></Image>
+                      <Image src={rise2}></Image>
                     </div>
                   </div>
                 </div>
@@ -322,11 +324,11 @@ export default function Page() {
                 <div className="bg-gradient-to-r from-[#071a42] to-[#090d24] p-3 rounded-b-[5px]">
                   <div className="grid grid-cols-4 max-[470px]:flex max-[470px]:flex-cols max-[470px]:justify-between overflow-hidden rounded-[5px] bg-[#050816] bg-opacity-60 p-2.5 text-white">
                     <div className="max-[768px]:mr-3 max-[470px]:mr-1.5 min-[600px]:min-w-[120px]">
-                      <h1 className="text-3xl max-[470px]:text-2xl truncate">1,839</h1>
+                      <h1 className="text-3xl max-[470px]:text-2xl truncate">1,842</h1>
                       <h1 className="truncate text-gray-400 text-lg max-[768px]:text-[18px] max-[600px]:text-[16px] max-[530px]:text-[14px] max-[470px]:text-[12px]">Achievements</h1>
                     </div>
                     <div className="max-[768px]:mr-3 max-[470px]:mr-1.5 min-[600px]:min-w-[125px] min-[470px]:min-w-[97px]">
-                      <h1 className="text-3xl max-[470px]:text-2xl">10</h1>
+                      <h1 className="text-3xl max-[470px]:text-2xl">11</h1>
                       <a href="https://steamcommunity.com/id/royal_avene/games/?tab=perfect" target="_blank" rel="noreferrer">
                         <h1 className="truncate text-gray-400 text-lg max-[768px]:text-[18px] max-[600px]:text-[16px] max-[530px]:text-[14px] max-[470px]:text-[12px] hover:text-white">Perfect Games</h1></a>
                     </div>
@@ -384,11 +386,11 @@ export default function Page() {
               </div>
 
               <div className="w-full mx-5 max-[600px]:mx-3 max-[470px]:mx-1.5 mb-5 rounded-[5px] bg-gradient-to-r from-[#142245] to-[#0a193e]">                                            {/* https://steamtime.info/s/76561198130945059 */}
-                <h1 className="ml-2.5 mt-1.5 mb-2 text-center text-white text-[18px] max-[470px]:text-[16px] max-[390px]:text-[14px] max-[390px]:text-left">Total Playtime : <span className="font-bold">7,382h</span> / <span className="font-bold">820.22h</span> per year</h1>
+                <h1 className="ml-2.5 mt-1.5 mb-2 text-center text-white text-[18px] max-[470px]:text-[16px] max-[390px]:text-[14px] max-[390px]:text-left">Total Playtime : <span className="font-bold">7,410h</span> / <span className="font-bold">823.33h</span> per year</h1>
               </div>
 
             </main>
-            <h1 className="text-center text-gray-500 max-[470px]:text-[15px]">Steam&reg; - 17 February 2024</h1>
+            <h1 className="text-center text-gray-500 max-[470px]:text-[15px]">Steam&reg; - 21 February 2024</h1>
             <br></br>
           </section>
         </div>
