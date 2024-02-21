@@ -24,7 +24,7 @@ import mhrsunbreak from "../public/images/mhrsunbreak.jpg";
 import mhwiceborne from "../public/images/mhwiceborne.jpg";
 import mhw from "../public/images/mhw.jpg";
 import bannerlord from "../public/images/bannerlord.jpg";
-import phantoms from "../public/images/phantoms.jpg";
+import destiny2 from "../public/images/destiny2.jpg";
 import rise from "../public/images/rise.jpg";
 import rise2 from "../public/images/rise2.jpg";
 import ron1 from "../public/images/ron1.jpg";
@@ -301,7 +301,7 @@ export default function Page() {
                       <Image src={rise}></Image>
                     </div>
                     <div className="w-[66px] h-[66px] max-[570px]:w-[48px] max-[570px]:h-[48px] max-[570px]:w-[36px] max-[570px]:h-[36px] max-[370px]:w-[30px] max-[370px]:h-[30px]">
-                      <Image src={phantoms}></Image>
+                      <Image src={destiny2}></Image>
                     </div>
                     <div className="w-[66px] h-[66px] max-[570px]:w-[48px] max-[570px]:h-[48px] max-[570px]:w-[36px] max-[570px]:h-[36px] max-[370px]:w-[30px] max-[370px]:h-[30px]">
                       <Image src={ac7}></Image>
