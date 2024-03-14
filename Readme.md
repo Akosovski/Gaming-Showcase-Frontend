@@ -18,5 +18,6 @@ A Website which showcases my gameplay, achievements, progress and gaming experie
 
 ## Upcoming Features ✨
 
+- Use centralized variables instead of individual assignments
 - Use Steam API to sync the stats (https://steamcommunity.com/dev/apikey)
 - Also find a way to sync the stats from battle chronicles
