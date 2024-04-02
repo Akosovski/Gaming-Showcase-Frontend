@@ -123,8 +123,8 @@ export default function Page() {
                       <h1 className="text-2xl">Level</h1>
                     </a>
                     <div>
-                      <div className="border border-2 rounded-full border-[#4e8ddb] pt-0.5 pb-0.5 text-center w-9">
-                        <h1 className="text-[18px]">57</h1>
+                      <div className="border border-2 rounded-full border-[#7652c9] pt-0.5 pb-0.5 text-center w-9">
+                        <h1 className="text-[18px]">60</h1>
                       </div>
                     </div>
                   </div>
@@ -137,7 +137,7 @@ export default function Page() {
                         </div>
                         <div className="ml-2">
                           <h1 className="text-[15px] -mb-1 max-[470px]:text-[14px]">Power Player</h1>
-                          <h1 className="text-sm max-[470px]:text-[13px]">340 XP</h1>
+                          <h1 className="text-sm max-[470px]:text-[13px]">343 XP</h1>
                         </div>
                     </div>
                   </a>
@@ -155,22 +155,22 @@ export default function Page() {
                 <div className="border-t-2 border-slate-900 bg-gradient-to-r from-[#071a42] to-[#090d24] p-3 rounded-b-[5px]">
                   <div className="grid grid-cols-4 max-[470px]:flex max-[470px]:flex-cols max-[470px]:justify-between overflow-hidden rounded-[5px] bg-[#050816] bg-opacity-60 p-2.5 text-white">
                     <div className="max-[470px]:min-w-[85px] max-[530px]:min-w-[135px]">
-                      <h1 className="text-3xl max-[470px]:text-2xl">113</h1>
+                      <h1 className="text-3xl max-[470px]:text-2xl">116</h1>
                       <a href="https://steamcommunity.com/id/royal_avene/games/" target="_blank" rel="noreferrer">
                         <h1 className="truncate text-gray-400 text-lg max-[768px]:text-[18px] max-[600px]:text-[16px] max-[470px]:text-[12px] hover:text-white">Games Owned</h1></a>
                     </div>
                     <div className="ml-3 max-[530px]:ml-4 max-[470px]:max-w-[68px] max-[330px]:ml-1.5">
-                      <h1 className="text-3xl max-[470px]:text-2xl">223</h1>
+                      <h1 className="text-3xl max-[470px]:text-2xl">239</h1>
                       <a href="https://steamcommunity.com/id/royal_avene/games/" target="_blank" rel="noreferrer">
                         <h1 className="truncate text-gray-400 text-lg max-[768px]:text-[18px] max-[600px]:text-[16px] max-[470px]:text-[12px] hover:text-white">DLC Owned</h1></a>
                     </div>
                     <div className="ml-3 max-[470px]:max-w-[48px] max-[470px]:ml-3 max-[330px]:ml-1.5">
-                      <h1 className="text-3xl max-[470px]:text-2xl">46</h1>
+                      <h1 className="text-3xl max-[470px]:text-2xl">47</h1>
                       <a href="https://steamcommunity.com/id/royal_avene/recommended/" target="_blank" rel="noreferrer">
                         <h1 className="truncate text-gray-400 text-lg max-[768px]:text-[18px] max-[600px]:text-[16px] max-[470px]:text-[12px] hover:text-white">Reviews</h1></a>
                     </div>
                     <div className="ml-3 max-[470px]:max-w-[60px] max-[470px]:ml-3 max-[330px]:ml-1.5">
-                      <h1 className="text-3xl max-[470px]:text-2xl">11</h1>
+                      <h1 className="text-3xl max-[470px]:text-2xl">13</h1>
                       <a href="https://store.steampowered.com/wishlist/id/royal_avene/" target="_blank" rel="noreferrer">
                         <h1 className="truncate text-gray-400 text-lg max-[768px]:text-[18px] max-[600px]:text-[16px] max-[470px]:text-[12px] hover:text-white">Wishlisted</h1></a>
                     </div>
@@ -255,12 +255,12 @@ export default function Page() {
 
                   <div className="mt-3 grid grid-cols-2 max-[675px]:flex max-[675px]:flex-cols gap-4 overflow-hidden rounded-[5px] bg-[#050816] bg-opacity-60 p-2.5 text-white">
                     <div className="max-[768px]:mr-3 max-[470px]:mr-1.5 min-[600px]:min-w-[125px] min-[470px]:min-w-[97px]">
-                      <h1 className="text-3xl max-[470px]:text-2xl">11</h1>
+                      <h1 className="text-3xl max-[470px]:text-2xl">20</h1>
                       <a href="https://steamcommunity.com/id/royal_avene/games/?tab=perfect" target="_blank" rel="noreferrer">
                         <h1 className="truncate text-gray-400 text-lg max-[768px]:text-[18px] max-[600px]:text-[16px] max-[530px]:text-[14px] max-[470px]:text-[12px] hover:text-white">Perfect Games</h1></a>
                     </div>
                     <div className="max-[768px]:mr-3 max-[470px]:mr-1.5 min-[600px]:min-w-[120px]">
-                      <h1 className="text-3xl max-[470px]:text-2xl truncate">489</h1>
+                      <h1 className="text-3xl max-[470px]:text-2xl truncate">811</h1>
                       <h1 className="truncate text-gray-400 text-lg max-[768px]:text-[18px] max-[600px]:text-[16px] max-[530px]:text-[14px] max-[470px]:text-[12px]">Achievements in Perfect Games</h1>
                     </div>
                   </div>
@@ -324,16 +324,16 @@ export default function Page() {
                 <div className="bg-gradient-to-r from-[#071a42] to-[#090d24] p-3 rounded-b-[5px]">
                   <div className="grid grid-cols-4 max-[470px]:flex max-[470px]:flex-cols max-[470px]:justify-between overflow-hidden rounded-[5px] bg-[#050816] bg-opacity-60 p-2.5 text-white">
                     <div className="max-[768px]:mr-3 max-[470px]:mr-1.5 min-[600px]:min-w-[120px]">
-                      <h1 className="text-3xl max-[470px]:text-2xl truncate">1,886</h1>
+                      <h1 className="text-3xl max-[470px]:text-2xl truncate">2,181</h1>
                       <h1 className="truncate text-gray-400 text-lg max-[768px]:text-[18px] max-[600px]:text-[16px] max-[530px]:text-[14px] max-[470px]:text-[12px]">Achievements</h1>
                     </div>
                     <div className="max-[768px]:mr-3 max-[470px]:mr-1.5 min-[600px]:min-w-[125px] min-[470px]:min-w-[97px]">
-                      <h1 className="text-3xl max-[470px]:text-2xl">12</h1>
+                      <h1 className="text-3xl max-[470px]:text-2xl">20</h1>
                       <a href="https://steamcommunity.com/id/royal_avene/games/?tab=perfect" target="_blank" rel="noreferrer">
                         <h1 className="truncate text-gray-400 text-lg max-[768px]:text-[18px] max-[600px]:text-[16px] max-[530px]:text-[14px] max-[470px]:text-[12px] hover:text-white">Perfect Games</h1></a>
                     </div>
                     <div className="min-[600px]:min-w-[240px] min-[470px]:min-w-[188px] max-[385px]:max-w-[75px]">
-                      <h1 className="text-3xl max-[470px]:text-2xl">46%</h1>
+                      <h1 className="text-3xl max-[470px]:text-2xl">54%</h1>
                       <a href="https://steamcommunity.com/id/royal_avene/games/?tab=all&sort=achievements" target="_blank" rel="noreferrer">
                         <h1 className="truncate text-gray-400 text-lg max-[768px]:text-[18px] max-[600px]:text-[16px] max-[530px]:text-[14px] max-[470px]:text-[12px] hover:text-white">Avg. Game Completion Rate</h1></a>
                     </div>
@@ -372,7 +372,7 @@ export default function Page() {
                 <div className="bg-gradient-to-r from-[#071a42] to-[#090d24] p-3 pt-0 rounded-b-[5px]">
                   <div className="grid grid-cols-3 max-[768px]:flex max-[768px]:flex-cols max-[768px]:justify-start overflow-hidden rounded-[5px] bg-[#050816] bg-opacity-60 p-2.5 text-white">
                     <div className="max-[768px]:mr-5 min-[600px]:min-w-[180px]">
-                      <h1 className="text-3xl max-[470px]:text-2xl truncate">58</h1>
+                      <h1 className="text-3xl max-[470px]:text-2xl truncate">63</h1>
                       <h1 className="truncate text-gray-400 text-lg max-[768px]:text-[18px] max-[600px]:text-[16px] max-[530px]:text-[14px] max-[470px]:text-[12px]">Total Badges Earned</h1>
                     </div>
                     <div className="max-[768px]:mr-5 min-[600px]:min-w-[165px] min-[470px]:min-w-[97px]">
@@ -386,11 +386,11 @@ export default function Page() {
               </div>
 
               <div className="w-full mx-5 max-[600px]:mx-3 max-[470px]:mx-1.5 mb-5 rounded-[5px] bg-gradient-to-r from-[#142245] to-[#0a193e]">                                            {/* https://steamtime.info/s/76561198130945059 */}
-                <h1 className="ml-2.5 mt-1.5 mb-2 text-center text-white text-[18px] max-[470px]:text-[16px] max-[390px]:text-[14px] max-[390px]:text-left">Total Playtime : <span className="font-bold">7,470h</span> / <span className="font-bold">830h</span> per year</h1>
+                <h1 className="ml-2.5 mt-1.5 mb-2 text-center text-white text-[18px] max-[470px]:text-[16px] max-[390px]:text-[14px] max-[390px]:text-left">Total Playtime : <span className="font-bold">7,959h</span> / <span className="font-bold">795h</span> per year</h1>
               </div>
 
             </main>
-            <h1 className="text-center text-gray-500 max-[470px]:text-[15px]">Steam&reg; - 25 February 2024</h1>
+            <h1 className="text-center text-gray-500 max-[470px]:text-[15px]">Steam&reg; - 2 March 2024</h1>
             <br></br>
           </section>
         </div>
@@ -458,7 +458,7 @@ export default function Page() {
                 <div className="grid grid-rows-4 gap-2">
                   <div className="flex flex-cols justify-between bg-[#343746] p-3 rounded-[10px] text-slate-100">
                     <h1>Days Active</h1>
-                    <h1 className="font-bold">877</h1>
+                    <h1 className="font-bold">895</h1>
                   </div>
                   <div className="flex flex-cols justify-between bg-[#343746] p-3 rounded-[10px] text-slate-100">
                     <h1>Characters</h1>
@@ -470,7 +470,7 @@ export default function Page() {
                   </div>
                   <div className="flex flex-cols justify-between bg-[#343746] p-3 rounded-[10px] text-slate-100">
                     <h1>Spiral Abyss</h1>
-                    <h1 className="font-bold">10-3</h1>
+                    <h1 className="font-bold">11-3</h1>
                   </div>
                 </div>
               </div>
@@ -484,19 +484,19 @@ export default function Page() {
                 <div className="grid grid-rows-4 gap-2">
                   <div className="flex flex-cols justify-between bg-[#343746] p-3 rounded-[10px] text-slate-100">
                     <h1>Time Active</h1>
-                    <h1 className="font-bold">222</h1>
+                    <h1 className="font-bold">305</h1>
                   </div>
                   <div className="flex flex-cols justify-between bg-[#343746] p-3 rounded-[10px] text-slate-100">
                     <h1>Characters Unlocked</h1>
-                    <h1 className="font-bold">26</h1>
+                    <h1 className="font-bold">31</h1>
                   </div>
                   <div className="flex flex-cols justify-between bg-[#343746] p-3 rounded-[10px] text-slate-100">
                     <h1>Achievements Unlocked</h1>
-                    <h1 className="font-bold">298</h1>
+                    <h1 className="font-bold">358</h1>
                   </div>
                   <div className="flex flex-cols justify-between bg-[#343746] p-3 rounded-[10px] text-slate-100">
                     <h1>Treasured Opened</h1>
-                    <h1 className="font-bold">309</h1>
+                    <h1 className="font-bold">387</h1>
                   </div>
                 </div>
               </div>
