@@ -85,6 +85,25 @@ import starraillogo from "../public/images/honkai-starrail.svg";
 
 export default function Page() {
     const [darkMode, setDarkMode] = useState(false);
+    const [ownedGames, setOwnedGames] = useState(null); // State to hold fetched data
+
+    useEffect(() => {
+      const fetchOwnedGames = async () => {
+        try {
+          const response = await fetch('https://akosovski-playstats-backend.up.railway.app/api/steam/games');
+          if (!response.ok) {
+            throw new Error('Network response invalid!');
+          }
+          const data = await response.json();
+          setOwnedGames(data); 
+        } catch (error) {
+          console.error('Error fetching data:', error);
+          setOwnedGames([]); 
+        }
+      };
+
+      fetchOwnedGames();
+    }, []);
 
     return (
       <div className={darkMode ? "dark" : ""}>
@@ -173,7 +192,19 @@ export default function Page() {
                     
                     <div className="grid grid-cols-4 max-[470px]:flex max-[470px]:flex-cols max-[470px]:justify-center overflow-hidden rounded-b-[5px] bg-[#050816] bg-opacity-60 p-2.5 text-white">
                       <div className="max-[470px]:min-w-[85px] max-[530px]:min-w-[135px]">
-                        <h1 className="text-3xl max-[470px]:text-2xl max-[470px]:text-center">131</h1>
+                        {ownedGames === null && 
+                          <h1 className="text-3xl max-[470px]:text-2xl max-[470px]:text-center">
+                            0
+                          </h1>
+                        }
+                        {ownedGames && ownedGames.response && (
+                        <h1 className="text-3xl max-[470px]:text-2xl max-[470px]:text-center">
+                          {(() => {
+                            const game = ownedGames.response.games.find(game => game.appid === 2215430);
+                            return game ? `${Math.floor(game.playtime_forever/60)}` : '0';
+                          })()}
+                        </h1>
+                        )}
                         <a href="#" target="_blank" rel="noreferrer">
                           <h1 className="truncate text-gray-400 text-lg max-[768px]:text-[18px] max-[600px]:text-[16px] max-[470px]:text-[13px] hover:text-white">Hours Played</h1></a>
                       </div>
