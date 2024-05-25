@@ -85,52 +85,9 @@ import starraillogo from "../public/images/honkai-starrail.svg";
 
 export default function Page() {
     const [darkMode, setDarkMode] = useState(false);
-    const [ownedGames, setOwnedGames] = useState(null); // State to hold fetched data
-  const steamId = 76561198130945059;
-  const apiKey = "558141CE48F0601AD3D7696F9A8BE074";
-
-  useEffect(() => {
-    const fetchOwnedGames = async () => {
-      try {
-        const response = await fetch(`https://api.steampowered.com/IPlayerService/GetOwnedGames/v0001/?key=${apiKey}&steamid=${steamId}&format=json`);
-        if (!response.ok) {
-          throw new Error('Network response was not ok');
-        }
-        const data = await response.json();
-        setOwnedGames(data); // Set fetched data to state
-        console.log('Owned Games:', data);
-      } catch (error) {
-        console.error('There has been a problem with your fetch operation:', error);
-      }
-    };
-
-    if (steamId && apiKey) {
-      fetchOwnedGames();
-    } else {
-      console.warn('Steam ID or API key is missing. Make sure environment variables are correctly set.');
-    }
-  }, [apiKey, steamId]);
 
     return (
       <div className={darkMode ? "dark" : ""}>
-
-          <div>
-            {ownedGames && ownedGames.response && (
-              <div>
-                <h2>Owned Games</h2>
-                <ul>
-                  {ownedGames.response.games.map((game, index) => (
-                    <li key={index}>
-                      <p>{game.name}</p>
-                      <p>Playtime: {game.playtime_forever} minutes</p>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            )}
-            {!ownedGames && <p>Loading...</p>}
-            {ownedGames && !ownedGames.response && <p>No games found or unexpected API response.</p>}
-          </div>
 
         {/* STEAM START */}
         <div className="bg-[url('../public/images/steambg.gif')] bg-cover">
