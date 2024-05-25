@@ -205,8 +205,7 @@ export default function Page() {
                           })()}
                         </h1>
                         )}
-                        <a href="#" target="_blank" rel="noreferrer">
-                          <h1 className="truncate text-gray-400 text-lg max-[768px]:text-[18px] max-[600px]:text-[16px] max-[470px]:text-[13px] hover:text-white">Hours Played</h1></a>
+                        <h1 className="truncate text-gray-400 text-lg max-[768px]:text-[18px] max-[600px]:text-[16px] max-[470px]:text-[13px] hover:text-white">Hours Played</h1>
                       </div>
                       <div className="ml-3 max-[530px]:ml-4 max-[470px]:max-w-[68px] max-[330px]:ml-1.5">
                         <h1 className="text-3xl max-[470px]:text-2xl max-[470px]:text-center">77</h1>
