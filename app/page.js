@@ -165,7 +165,7 @@ export default function Page() {
                   <div className="max-[470px]:justify-between overflow-hidden rounded-[5px] bg-[#050816] bg-opacity-60 text-white">
 
                     <div className="flex max-[700px]:flex-col max-[700px]:justify-between overflow-hidden rounded-t-[5px] bg-[#050816] bg-opacity-60 p-2.5 pb-0 text-white">
-                      <a href="https://store.steampowered.com/app/2014780/XPlane_12/" target="_blank" rel="noreferrer"><Image src={got} className="w-72 max-[700px]:w-full p-1"></Image></a>
+                      <a href="https://store.steampowered.com/app/2215430/Ghost_of_Tsushima_DIRECTORS_CUT/" target="_blank" rel="noreferrer"><Image src={got} className="w-72 max-[700px]:w-full p-1"></Image></a>
                       <h1 className="text-3xl max-[700px]:text-2xl max-[700px]:text-center p-2 pl-5 pt-3 pb-0">Ghost of Tsushima DIRECTOR'S CUT</h1>
                     </div>
                     
