@@ -15,6 +15,7 @@ import qiqi from "../public/images/qiqi.svg";
 import wanderer from "../public/images/wanderer.svg";
 import yelan from "../public/images/yelan.svg";
 import zhongli from "../public/images/zhongli.svg";
+import arlecchino from "../public/images/arlecchino.svg";
 
 export default function Page() {
   return (
@@ -31,6 +32,15 @@ export default function Page() {
 
             <div className="flex flex-rows flex-wrap p-3 gap-6 justify-center -mt-12 max-[900px]:mx-0 max-[1366px]:mx-24 min-[1366px]:mx-44">
               
+              <div className="w-[330px] rounded-[12px] max-[360px]:w-[300px] bg-gradient-to-r from-[#0e0d0b] to-[#0e0d0b]">
+                <div className="w-[330px] h-[400px] max-[360px]:w-[300px] max-[360px]:h-[370px] rounded-[12px] overflow-hidden">
+                  <Image src={arlecchino}/>
+                </div>
+                <div className="text-white text-center text-lg">
+                  <h1 className="mb-1 -mt-2.5 max-[360px]:-mt-4">Arlecchino</h1>
+                </div>
+              </div>
+
               <div className="w-[330px] rounded-[12px] max-[360px]:w-[300px] bg-gradient-to-r from-[#0e0d0b] to-[#0e0d0b]">
                 <div className="w-[330px] h-[400px] max-[360px]:w-[300px] max-[360px]:h-[370px] rounded-[12px] overflow-hidden">
                   <Image src={zhongli}/>

@@ -134,7 +134,7 @@ export default function Page() {
                     </a>
                     <div>
                       <div className="border border-2 rounded-full border-[#7652c9] pt-0.5 pb-0.5 text-center w-9">
-                        <h1 className="text-[18px]">60</h1>
+                        <h1 className="text-[18px]">61</h1>
                       </div>
                     </div>
                   </div>
@@ -157,6 +157,14 @@ export default function Page() {
               
             {/* MAIN STATS */}
             <main className="flex flex-wrap justify-center">
+            
+            {/* 2023 YEAR IN REVIEW */}
+            <div className="w-full mx-5 max-[600px]:mx-3 max-[470px]:mx-1.5 mb-5 rounded-[5px] bg-gradient-to-r from-[#142245] to-[#0a193e]">
+              <h1 className="ml-2.5 mt-1.5 mb-2 text-white">Steam Year In Review 2023</h1>
+              <div className="border-t-2 border-slate-900 bg-gradient-to-r from-[#071a42] to-[#090d24] rounded-[5px]">
+                <a href="https://s.team/y23/pdrhrdf?l=english" target="_blank" rel="noreferrer"><Image src={YIR} className="w-full"></Image></a>
+              </div>
+            </div>
 
             {/* FAVORITE GAME */}
             <div className="w-full mx-5 max-[600px]:mx-3 max-[470px]:mx-1.5 mb-5 rounded-[5px] bg-gradient-to-r from-[#142245] to-[#0a193e]">
