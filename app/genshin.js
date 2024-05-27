@@ -142,7 +142,7 @@ export default function Page() {
 
             </div>
 
-            <h1 className="text-center text-gray-500 mt-5 max-[470px]:text-[15px]">Genshin Impact - 28 December 2023</h1>
+            <h1 className="text-center text-gray-500 mt-5 max-[470px]:text-[15px]">Genshin Impact - 26 May 2024</h1>
             <br></br>
     </div>
     )
