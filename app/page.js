@@ -1,6 +1,6 @@
 'use client';
 import * as React from 'react';
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import Image from "next/image";
 import '../styles/globals.css';
 
@@ -16,6 +16,12 @@ import hoyolablogo from "../public/images/hoyolablogo.png";
 
 export default function Page() {
     const [darkMode, setDarkMode] = useState(false);
+    const [activeComponent, setActiveComponent] = useState(null);
+
+    const handleButtonClick = (component) => {
+      setActiveComponent(component);
+      window.scrollBy({ top: 300, behavior: 'smooth' });
+    };
 
     return (
       <div className={darkMode ? "dark" : ""}>
@@ -127,21 +133,30 @@ export default function Page() {
 
             </div>
 
-            <hr className="mx-48 max-[470px]:mx-16"></hr>
+            <div>
+              <h1 className="text-white text-2xl text-center mb-4">Show Featured Characters</h1>
+            </div>
 
-            <Hi3></Hi3>
+            {/* BUTTONS */}
+            <div className="flex max-[520px]:flex-col max-[520px]:p-5 justify-center gap-4">
+              <button onClick={() => handleButtonClick('hi3')} className="bg-[#1b1d2a] hover:bg-[#343746] transition duration-200 text-white px-4 py-2 rounded">Honkai Impact 3rd</button>
+              <button onClick={() => handleButtonClick('genshin')} className="bg-[#1b1d2a] hover:bg-[#343746] transition duration-200 text-white px-4 py-2 rounded">Genshin Impact</button>
+              <button onClick={() => handleButtonClick('hsr')} className="bg-[#1b1d2a] hover:bg-[#343746] transition duration-200 text-white px-4 py-2 rounded">Honkai: Star Rail</button>
+            </div>
 
-            <hr className="mx-48 max-[470px]:mx-16"></hr>
-
-            <Genshin></Genshin>
-
-            <hr className="mx-48 max-[470px]:mx-16"></hr>
-
-            <HSR></HSR>
+            {/* CONDITIONAL RENDERING */}
+            {activeComponent === 'hi3' && <Hi3 />}
+            {activeComponent === 'genshin' && <Genshin />}
+            {activeComponent === 'hsr' && <HSR />}
+  
+            <div className="p-5"></div>
 
         </div>
         {/* HOYOVERSE END */}
 
+        <div className="pb-[100px] bg-[#0c0f1d]">
+
+        </div>
       </div>
     )
   }

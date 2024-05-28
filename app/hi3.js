@@ -17,16 +17,14 @@ export default function Page() {
   return (
     <div>
         {/* HONKAI IMPACT 3RD */}
-        <div className="grid grid-rows-2 justify-center mt-5">
+        <hr className="mx-96 mt-12 max-[470px]:mx-16"></hr>
+        <div className="grid grid-rows-2 justify-center mt-8">
             <div className="drop-shadow-lg w-[250px] justify-center h-[150px] overflow-hidden ">
                 <Image src={hi3logo}></Image>
             </div>
-            <div>
-                <h1 className="text-white text-xl text-center mt-2">My Featured Valkyries</h1>
-            </div>
         </div>
         
-        <div className="flex flex-rows flex-wrap p-3 gap-6 justify-center -mt-24 max-[845px]:mx-0 max-[1366px]:mx-24 min-[1366px]:mx-44">
+        <div className="flex flex-rows flex-wrap p-3 gap-6 justify-center -mt-32 max-[845px]:mx-0 max-[1366px]:mx-24 min-[1366px]:mx-44">
 
             <div className="w-[300px] rounded-[12px] bg-gradient-to-r from-[#032866] to-[#10326b]">
                 <div className="w-[300px] h-[400px] rounded-[12px] overflow-hidden">

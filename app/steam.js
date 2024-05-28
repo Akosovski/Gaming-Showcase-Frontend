@@ -522,12 +522,12 @@ export default function Page() {
                 <h1 className="ml-2.5 mt-1.5 mb-2 text-center text-white text-[18px] max-[470px]:text-[16px] max-[390px]:text-[14px] max-[390px]:text-left">
                   Total Playtime : <span className="font-bold">
                   {Math.floor(totalPlaytime/60)}h</span> / 
-                  <span className="font-bold"> {Math.floor(averagePlaytime * 10) / 10}h</span> per day.
+                  <span className="font-bold"> {Math.floor(averagePlaytime * 10) / 10}h</span> per day
                 </h1>
               </div>
 
             </main>
-            <h1 className="text-center text-gray-500 max-[470px]:text-[15px]">Steam&reg; - 26 May 2024</h1>
+            <h1 className="text-center text-gray-500 max-[470px]:text-[15px]">Steam&reg; - 28 May 2024</h1>
             <br></br>
           </section>
         </div>
