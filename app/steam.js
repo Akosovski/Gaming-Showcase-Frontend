@@ -42,7 +42,7 @@ import jwe1 from "../public/images/jwe1.jpg";
 import risebanner from "../public/images/risebanner.jpg";
 import ac7banner from "../public/images/ac7.jpg";
 import got from "../public/images/got.jpg";
-import gotbadge from "../public/images/gotbadge.png";
+import gotbadge from "../public/images/gotbadge2.png";
 import insu from "../public/images/insu.jpg";
 import re2 from "../public/images/re2.jpg";
 import sifu from "../public/images/sifu.jpg";
@@ -210,8 +210,8 @@ export default function Page() {
                       </div>
                       <div> 
                       <a href="https://steamcommunity.com/id/royal_avene/gamecards/2215430" target="_blank" rel="noreferrer">
-                        <h1 className="hover:text-blue-400 text-[15px] -mb-1 max-[470px]:text-[14px]">The Wandering Samurai</h1></a>
-                        <h1 className="text-sm max-[470px]:text-[13px] text-gray-500">100 XP</h1>
+                        <h1 className="hover:text-blue-400 text-[15px] -mb-1 max-[470px]:text-[14px]">The People's Hope</h1></a>
+                        <h1 className="text-sm max-[470px]:text-[13px] text-gray-500">200 XP</h1>
                       </div>
                     </div>
                     <hr className="ml-3 mr-3 border-gray-800"></hr>
@@ -527,7 +527,7 @@ export default function Page() {
               </div>
 
             </main>
-            <h1 className="text-center text-gray-500 max-[470px]:text-[15px]">Steam&reg; - 28 May 2024</h1>
+            <h1 className="text-center text-gray-500 max-[470px]:text-[15px]">Steam&reg; - 30 May 2024</h1>
             <br></br>
           </section>
         </div>
