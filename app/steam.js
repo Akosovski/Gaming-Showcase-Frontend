@@ -15,6 +15,7 @@ import xplane12 from "../public/images/xplane12.jpg";
 import eldenring1 from "../public/images/eldenring1.jpg";
 import eldenring2 from "../public/images/eldenring2.jpg";
 import hitmanpro from "../public/images/hitmanpro.jpg";
+import hatred from "../public/images/hatred.jpg";
 import hatred2 from "../public/images/hatred2.jpg";
 import hatred3 from "../public/images/hatred3.jpg";
 import ac7 from "../public/images/ac7bop.jpg";
@@ -368,9 +369,9 @@ export default function Page() {
                     </div>
                     
                     <div className="">
-                      <Image src={readyornot}></Image>
+                      <Image src={hatred}></Image>
                       <div className="flex justify-between p-0.5 pl-2 pb-0 bg-[#206bf6]">
-                        <h1 className="truncate">15 / 15 Achievements</h1>
+                        <h1 className="truncate">74 / 74 Achievements</h1>
                         <img className="w-12 h-12 -mt-5 -mr-1" src="https://community.cloudflare.steamstatic.com/public/images/profile/achievementIcon.svg"></img>
                       </div>
                     </div>
