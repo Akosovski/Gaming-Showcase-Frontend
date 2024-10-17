@@ -20,3 +20,4 @@ A Website which showcases my gameplay, achievements, progress and gaming experie
 
 - Use centralized variables instead of individual assignments
 - Find a way to sync the stats from battle chronicles
+- Add Arena Breakout info to the stats collection
