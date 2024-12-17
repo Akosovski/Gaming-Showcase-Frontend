@@ -31,7 +31,7 @@ import rise2 from "../public/images/rise2.jpg";
 import ron1 from "../public/images/ron1.jpg";
 import ron2 from "../public/images/ron2.jpg";
 import sandstorm from "../public/images/sandstorm.jpg";
-import years from "../public/images/years.png";
+import years from "../public/images/years10.png";
 import il2 from "../public/images/il2.png";
 import lord from "../public/images/lord.png";
 import demon from "../public/images/demon.png";
@@ -189,7 +189,7 @@ export default function Page() {
                         <h1 className="text-3xl max-[470px]:text-2xl max-[470px]:text-center">
                           {(() => {
                             const game = ownedGames.response.games.find(game => game.appid === 2215430);
-                            return game ? `${Math.floor(game.playtime_forever/60)}` : '0';
+                            return game ? `${Math.ceil(game.playtime_forever/60)}` : '0';
                           })()}
                         </h1>
                         )}
@@ -481,9 +481,14 @@ export default function Page() {
                 <h1 className="ml-2.5 mt-1.5 mb-2 text-white">Badge Collector</h1>
 
                 <div className="bg-gradient-to-r from-[#071a42] to-[#090d24] p-3">
-                  <div className="grid grid-cols-6 justify-items-center overflow-hidden rounded-[5px] bg-[#050816] bg-opacity-60 p-2.5 text-white">
-                    <div className="w-[72px] h-[72px] max-[490px]:w-[48px] max-[490px]:h-[48px] max-[330px]:w-[38px] max-[330px]:h-[38px]">
-                      <Image src={years}></Image>
+                  <div className="grid grid-cols-6 justify-items-center rounded-[5px] bg-[#050816] bg-opacity-60 p-2.5 text-white">
+                    <div className="relative group">
+                      <div className="w-[72px] h-[72px] max-[490px]:w-[48px] max-[490px]:h-[48px] max-[330px]:w-[38px] max-[330px]:h-[38px]">
+                        <Image src={years}></Image>
+                      </div>
+                      <div className="absolute bottom-full left-full transform -translate-x-1/2 mb-2 hidden group-hover:block transition ease-in-out delay-50 duration-200 z-99 bg-white text-black text-sm px-2 py-1 rounded-lg shadow-lg z-99 w-48" style={{ textShadow: 'none' }}>
+                        Tooltip
+                      </div>
                     </div>
                     <div className="w-[72px] h-[72px] max-[490px]:w-[48px] max-[490px]:h-[48px] max-[330px]:w-[38px] max-[330px]:h-[38px]">
                       <Image src={il2}></Image>
