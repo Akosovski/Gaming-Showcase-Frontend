@@ -88,19 +88,19 @@ export default function Page() {
                 <div className="grid grid-rows-4 gap-2">
                   <div className="flex flex-cols justify-between bg-[#343746] p-3 rounded-[10px] text-slate-100">
                     <h1>Days Active</h1>
-                    <h1 className="font-bold">926</h1>
+                    <h1 className="font-bold">979</h1>
                   </div>
                   <div className="flex flex-cols justify-between bg-[#343746] p-3 rounded-[10px] text-slate-100">
                     <h1>Characters</h1>
-                    <h1 className="font-bold">45</h1>
+                    <h1 className="font-bold">46</h1>
                   </div>
                   <div className="flex flex-cols justify-between bg-[#343746] p-3 rounded-[10px] text-slate-100">
                     <h1>Achievements</h1>
-                    <h1 className="font-bold">587</h1>
+                    <h1 className="font-bold">592</h1>
                   </div>
                   <div className="flex flex-cols justify-between bg-[#343746] p-3 rounded-[10px] text-slate-100">
                     <h1>Spiral Abyss</h1>
-                    <h1 className="font-bold">11-3</h1>
+                    <h1 className="font-bold">8-3</h1>
                   </div>
                 </div>
               </div>
@@ -114,19 +114,19 @@ export default function Page() {
                 <div className="grid grid-rows-4 gap-2">
                   <div className="flex flex-cols justify-between bg-[#343746] p-3 rounded-[10px] text-slate-100">
                     <h1>Time Active</h1>
-                    <h1 className="font-bold">346</h1>
+                    <h1 className="font-bold">636</h1>
                   </div>
                   <div className="flex flex-cols justify-between bg-[#343746] p-3 rounded-[10px] text-slate-100">
                     <h1>Characters Unlocked</h1>
-                    <h1 className="font-bold">33</h1>
+                    <h1 className="font-bold">45</h1>
                   </div>
                   <div className="flex flex-cols justify-between bg-[#343746] p-3 rounded-[10px] text-slate-100">
                     <h1>Achievements Unlocked</h1>
-                    <h1 className="font-bold">369</h1>
+                    <h1 className="font-bold">463</h1>
                   </div>
                   <div className="flex flex-cols justify-between bg-[#343746] p-3 rounded-[10px] text-slate-100">
                     <h1>Treasured Opened</h1>
-                    <h1 className="font-bold">387</h1>
+                    <h1 className="font-bold">436</h1>
                   </div>
                 </div>
               </div>
